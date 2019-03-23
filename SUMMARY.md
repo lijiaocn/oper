@@ -1,6 +1,6 @@
 # Summary
 
-* [抖音运营](README.md)
+* [抖音运营（必读！）](README.md)
   * [变现思路](./chapter1/bianxian.md) 
   * [养号买号](./chapter1/yanghao.md)
   * [视频工具](./chapter1/gongju.md)
