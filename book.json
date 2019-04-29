@@ -21,7 +21,10 @@
 			"description": "抖音运营知识汇总，短视频制作技巧，运营实践",
 			"author": "李佶澳",
 			"site_url": "https://www.lijiaocn.com/douyin/",
-			"feed_url": "https://www.lijiaocn.com/douyin/sitemap.xml"
+			"feed_url": "https://www.lijiaocn.com/douyin/feed.xml"
+		},
+		"sitemap": {
+			"hostname": "https://www.lijiaocn.com/douyin/"
 		}
 	}
 }
