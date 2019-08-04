@@ -5,8 +5,8 @@
 	"gitbook": ">=3.0.0",
 	"plugins":[
 		{
-			"name": "theme-yunying",
-			"version": "git+https://github.com/lijiaocn/theme-yunying.git"
+			"name": "theme-lijiaocn",
+			"version": "git+https://github.com/lijiaocn/theme-lijiaocn.git"
 		},
 		"atoc",
 	    "toggle-chapters",
