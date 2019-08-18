@@ -1,6 +1,6 @@
 # Summary
 
-* [运营手册](README.md)
+* [运营手册内容说明](README.md)
 * [抖音运营（必读！）](./douyin/README.md)
   * [变现思路](./douyin/bianxian.md) 
   * [养号买号](./douyin/yanghao.md)
@@ -19,3 +19,5 @@
     * [开箱展示](./douyin/kaixiang.md)
     * [个人IP](./douyin/ip.md)
     * [随便想想](./douyin/xiangfa.md)
+* [亚马逊卖货](./amazon/README.md)
+    * [亚马逊新品推爆-Lissa Tam](./amazon/newbomb.md)
