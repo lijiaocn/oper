@@ -129,4 +129,6 @@ Lissa Tam 回复 不坑：哈哈哈哈哈哈哈哈真的吗，我觉得还好叭
 
 不坑 回复 Lissa Tam：真的，我一直都是做欧洲市场，欧洲只有大类前30销量才可以。当然也要看产品的。
 
-**本文来自于 [caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)，原文经过本站精校、分段和高亮处理，[来源介绍](../README.md)**
+本文来自于【caoz的小密圈】原文经过本站精校、分段和高亮处理，[来源介绍](../README.md)
+
+![caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)

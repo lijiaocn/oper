@@ -19,5 +19,6 @@
     * [开箱展示](./douyin/kaixiang.md)
     * [个人IP](./douyin/ip.md)
     * [随便想想](./douyin/xiangfa.md)
-* [亚马逊卖货](./amazon/README.md)
-    * [亚马逊新品推爆-Lissa Tam](./amazon/newbomb.md)
+* [工具收集](./tools/README.md)
+* [流量电商](./shop/README.md)
+    * [亚马逊新品推爆-Lissa Tam](./shop/amazon-new-product.md)
