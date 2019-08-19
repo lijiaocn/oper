@@ -4,7 +4,7 @@
         <description><![CDATA[抖音运营知识汇总，短视频制作技巧，运营实践]]></description>
         <link>https://www.lijiaocn.com/oper/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Aug 2019 07:36:38 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Aug 2019 12:55:34 GMT</lastBuildDate>
         <atom:link href="https://www.lijiaocn.com/oper/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[李佶澳]]></author>
         <item>
@@ -131,17 +131,24 @@
             <dc:creator><![CDATA[李佶澳]]></dc:creator>
         </item>
         <item>
+            <title><![CDATA[运营工具收集]]></title>
+            <description><![CDATA[Google 趋势：https://trends.google.com ]]></description>
+            <link>https://www.lijiaocn.com/oper/tools/README.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/tools/README.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
             <title><![CDATA[亚马逊卖货（跨境电商）相关知识和经验收集]]></title>
             <description><![CDATA[这里收集和亚马逊卖货相关的内容，主要收集实战经验。]]></description>
-            <link>https://www.lijiaocn.com/oper/amazon/README.html</link>
-            <guid isPermaLink="true">https://www.lijiaocn.com/oper/amazon/README.html</guid>
+            <link>https://www.lijiaocn.com/oper/shop/README.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/README.html</guid>
             <dc:creator><![CDATA[李佶澳]]></dc:creator>
         </item>
         <item>
             <title><![CDATA[亚马逊新产品推爆上关键字首页（Lissa Tam)]]></title>
             <description><![CDATA[Lissa Tam 在 caoz的小密圈 中做的分享，本站进行了精校和高亮处理。]]></description>
-            <link>https://www.lijiaocn.com/oper/amazon/newbomb.html</link>
-            <guid isPermaLink="true">https://www.lijiaocn.com/oper/amazon/newbomb.html</guid>
+            <link>https://www.lijiaocn.com/oper/shop/amazon-new-product.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/amazon-new-product.html</guid>
             <dc:creator><![CDATA[李佶澳]]></dc:creator>
         </item>
     </channel>
