@@ -20,3 +20,19 @@ wordart.com：[https://wordart.com/gallery ](https://wordart.com/gallery)
 谷歌插件：[instant-data-scraper](：https://chrome.google.com/webstore/detail/instant-data-scraper/ofaokhiedipichpaobibbnahnkdoiiah)
 
 [web scraper](https://chrome.google.com/webstore/detail/web-scraper/jnhgnonknehpejjnehehllkliplmbmhn)
+
+## 网站字体侵权检查
+
+Chrome FontFace 插件：[FontFace](https://chrome.google.com/webstore/detail/fontface-ninja/eljapbgkmlngdpckoiiibecpemleclhh/related)。
+
+在线检查：[likefont](https://www.likefont.com)
+
+[qiuziti](http://www.qiuziti.com/)
+
+## 短视频系列工具
+
+[短视频系列工具](https://chiguatools.cn/)
+
+## 文档工具
+
+smallpdf.com
