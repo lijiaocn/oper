@@ -4,12 +4,12 @@
         <description><![CDATA[抖音运营知识汇总，短视频制作技巧，运营实践]]></description>
         <link>https://www.lijiaocn.com/oper/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Mon, 19 Aug 2019 12:55:34 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 19 Aug 2019 14:51:24 GMT</lastBuildDate>
         <atom:link href="https://www.lijiaocn.com/oper/feed.xml" rel="self" type="application/rss+xml"/>
         <author><![CDATA[李佶澳]]></author>
         <item>
             <title><![CDATA[运营手册内容说明]]></title>
-            <description><![CDATA[本人是程序员，对运营的事情一窍不通，但是比较好奇，在用业余时间学习了解，这里是收藏的一些运营相关内容，有些是自己总结的，有些来自于 caoz 的小密圈 、生财有术 等星球中的精华贴。]]></description>
+            <description><![CDATA[本人对运营的事情一窍不通，但是比较好奇，在用业余时间学习了解，这里是收藏的一些运营相关内容，有些是自己搜罗总结的，有些是 caoz 的小密圈 、 生财有术  等星球中的精华贴。]]></description>
             <link>https://www.lijiaocn.com/oper/</link>
             <guid isPermaLink="true">https://www.lijiaocn.com/oper/</guid>
             <dc:creator><![CDATA[李佶澳]]></dc:creator>
@@ -131,15 +131,8 @@
             <dc:creator><![CDATA[李佶澳]]></dc:creator>
         </item>
         <item>
-            <title><![CDATA[运营工具收集]]></title>
-            <description><![CDATA[Google 趋势：https://trends.google.com ]]></description>
-            <link>https://www.lijiaocn.com/oper/tools/README.html</link>
-            <guid isPermaLink="true">https://www.lijiaocn.com/oper/tools/README.html</guid>
-            <dc:creator><![CDATA[李佶澳]]></dc:creator>
-        </item>
-        <item>
-            <title><![CDATA[亚马逊卖货（跨境电商）相关知识和经验收集]]></title>
-            <description><![CDATA[这里收集和亚马逊卖货相关的内容，主要收集实战经验。]]></description>
+            <title><![CDATA[流量电商/跨境电商相关知识和经验收集]]></title>
+            <description><![CDATA[这里收集淘宝、亚马逊卖货等内容，主要收集实战经验。]]></description>
             <link>https://www.lijiaocn.com/oper/shop/README.html</link>
             <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/README.html</guid>
             <dc:creator><![CDATA[李佶澳]]></dc:creator>
@@ -149,6 +142,62 @@
             <description><![CDATA[Lissa Tam 在 caoz的小密圈 中做的分享，本站进行了精校和高亮处理。]]></description>
             <link>https://www.lijiaocn.com/oper/shop/amazon-new-product.html</link>
             <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/amazon-new-product.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[亚马逊店群（零库存）打法]]></title>
+            <description><![CDATA[路飞 在【生财有术】 中做的分享，本站进行了精校和高亮处理。]]></description>
+            <link>https://www.lijiaocn.com/oper/shop/amazon-group.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/amazon-group.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[淘宝店群打法]]></title>
+            <description><![CDATA[佳境 在 caoz的小密圈 中做的分享，本站进行了精校和高亮处理。]]></description>
+            <link>https://www.lijiaocn.com/oper/shop/taobao-group.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/taobao-group.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[淘宝直通车打造爆款技巧]]></title>
+            <description><![CDATA[七里香 在 caoz的小密圈 中做的分享，本站进行了精校和高亮处理。]]></description>
+            <link>https://www.lijiaocn.com/oper/shop/taobao-car.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/taobao-car.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[淘宝直通车快速降低直通车PPC]]></title>
+            <description><![CDATA[七里香 在 caoz的小密圈 中做的分享，本站进行了精校和高亮处理。]]></description>
+            <link>https://www.lijiaocn.com/oper/shop/taobao-car-ppc.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/taobao-car-ppc.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[如何整合资源并从中赚到了属于他的百万级收入]]></title>
+            <description><![CDATA[百川 在【生财有术】 中做的分享，本站进行了精校和高亮处理。]]></description>
+            <link>https://www.lijiaocn.com/oper/shop/res.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/res.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[闲鱼信息差卖货与广告补量行业]]></title>
+            <description><![CDATA[百川 在【生财有术】 中做的分享，本站进行了精校和高亮处理。]]></description>
+            <link>https://www.lijiaocn.com/oper/shop/ad-bu-liang.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/ad-bu-liang.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[抖音淘客带货玩法和经验]]></title>
+            <description><![CDATA[周可 在【生财有术】 中做的分享，本站进行了精校和高亮处理。]]></description>
+            <link>https://www.lijiaocn.com/oper/shop/douyin.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/shop/douyin.html</guid>
+            <dc:creator><![CDATA[李佶澳]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[运营工具收集]]></title>
+            <description><![CDATA[Google 趋势：https://trends.google.com ]]></description>
+            <link>https://www.lijiaocn.com/oper/tools/README.html</link>
+            <guid isPermaLink="true">https://www.lijiaocn.com/oper/tools/README.html</guid>
             <dc:creator><![CDATA[李佶澳]]></dc:creator>
         </item>
     </channel>
