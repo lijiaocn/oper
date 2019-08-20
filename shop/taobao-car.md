@@ -1,8 +1,7 @@
 <!-- toc -->
 # 淘宝直通车打造爆款技巧
 
-**七里香** 在 [caoz的小密圈](../README.md) 中做的分享，本站进行了精校和高亮处理。
-
+**七里香** 在知识星球【[caoz的小密圈](../README.md)】 中做的分享，本站进行了精校和高亮处理。
 
 ## 正文
 
@@ -153,6 +152,6 @@ C：详情页图片不能太少，也不能太多。15~25张为佳
 
 ## 提示
 
-**佳境** 在 [caoz的小密圈](../README.md) 中做的分享，本站进行了精校和高亮处理。
+本文来自于知识星球【[caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)】原文经过本站精校、分段和高亮处理，[来源介绍](../README.md)
 
 ![caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)

@@ -1,7 +1,7 @@
 <!-- toc -->
 # 淘宝店群打法
 
-**佳境** 在 [caoz的小密圈](../README.md) 中做的分享，本站进行了精校和高亮处理。
+**佳境** 在知识星球【[caoz的小密圈](../README.md) 】中做的分享，本站进行了精校和高亮处理。
 
 ## 正文
 
@@ -46,7 +46,6 @@
 
 ## 提示
 
-本文来自于【caoz的小密圈】原文经过本站精校、分段和高亮处理，[来源介绍](../README.md)
+本文来自于知识星球【[caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)】原文经过本站精校、分段和高亮处理，[来源介绍](../README.md)
 
 ![caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)
-

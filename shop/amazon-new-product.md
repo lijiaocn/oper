@@ -2,7 +2,7 @@
 
 # 亚马逊新产品推爆上关键字首页（Lissa Tam)
 
-**Lissa Tam** 在 [caoz的小密圈](../README.md) 中做的分享，本站进行了精校和高亮处理。
+**Lissa Tam** 在知识星球【[caoz的小密圈](../README.md)】 中做的分享，本站进行了精校和高亮处理。
 
 ## 效果展示
 
@@ -132,6 +132,6 @@ Lissa Tam 回复 不坑：哈哈哈哈哈哈哈哈真的吗，我觉得还好叭
 
 ## 提示
 
-本文来自于【caoz的小密圈】原文经过本站精校、分段和高亮处理，[来源介绍](../README.md)
+本文来自于知识星球【[caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)】原文经过本站精校、分段和高亮处理，[来源介绍](../README.md)
 
 ![caoz的小密圈](https://www.lijiaocn.com/img/xiaomiquan-caoz.png)
