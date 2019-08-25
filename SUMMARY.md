@@ -1,6 +1,10 @@
 # Summary
 
 * [运营手册内容说明](README.md)
+* [真知灼见](./renshi/README.md)
+    * [赚到钱最重要的因素是资源整合](./renshi/1.md)
+    * [产品要有能被喊的属性](./renshi/2.md)
+    * [真正轻松赚大钱的信息，没人会出来讲](./renshi/3.md)
 * [流量电商](./shop/README.md)
     * [亚马逊新品推爆-Lissa Tam](./shop/amazon-new-product.md)
     * [亚马逊店群-路飞](./shop/amazon-group.md)
@@ -10,6 +14,11 @@
     * [流量资源整合-百川](./shop/res.md)
     * [广告补量业务与闲鱼信息差-百川]( ./shop/ad-bu-liang.md )
     * [抖音带货、知识变现-周可](./shop/douyin.md)
+    * [Affiliate Marketing 经历和抖音躺过的坑-赖才坤](./shop/cod.md)
+* [社群运营](./social/README.md)
+    * [微信细致运营100条-杨涛](./social/weixin.md)
+    * [知乎细致运营150条-潇潇](./social/zhihu.md)
+    * [新媒体增长上的一些坑和经验-火火](./social/media.md)
 * [信息差变现](./info/README.md)
     * [免费软件销售](./info/soft.md)
 * [创意产品/服务](./prod/README.md)
