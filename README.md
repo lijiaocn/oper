@@ -1,6 +1,4 @@
-# 运营手册内容说明
-
->注意：生财有术的内容太干了，为了不侵权，以后不再全文抄录！
+# 小鸟笔记之实用运营手册说明
 
 收藏的运营相关内容，有些是自己搜罗总结的，有些是 **caoz 的小密圈** 、**生财有术** 等付费星球中的精华贴。
 
@@ -10,6 +8,8 @@
 **生财有术的价格在千元以上，价格高但运营给力，适合不差钱、急需灵感和资源对接的朋友**。
 
 **划重点**：平台强制支持三天内自助退款，一个星球有两次退款机会，退出两次后不能再次加入。建议加入以后先看精华，然后自己评估要不要退出。本人混迹于这些星球，不代表这些星球适合所有人。
+
+>注意：生财有术的内容太干了，为了不侵权，以后不再全文抄录！
 
 <div style="display:flex;flex-direction:row">
 <img width="50%" alt="知识星球生财有术" src="https://www.lijiaocn.com/img/xiaomiquan-scys.png"/>
@@ -21,4 +21,19 @@
 <img width="50%" alt="知识星球赚钱笔记免费版" src="https://www.lijiaocn.com/img/xiaomiquan-money-free.jpeg"/>
 </div>
 
+## 小鸟笔记
+
+[小鸟笔记][1] 是在日常工作学习中整理出来的使用手册，主打便捷、系统、深度、有用，内容正在逐步扩充，点击左侧边栏的“[小鸟笔记][1]”可以查看现有的手册列表。
+
+
+**联系方式：微信扫一扫学习加微信   mail: lijiaocn@foxmail.com**
+
+<div style="display:flex;flex-direction:row">
+<img height="250px" alt="关注微信公众号" src="https://www.lijiaocn.com/img/class.jpg"/>
+<img height="250px" alt="知识星球赚钱笔记免费版" src="https://www.lijiaocn.com/img/xiaomiquan-money-free.jpeg"/>
+</div>
+
+
 ## 参考
+
+[1]:  https://www.lijiaocn.com/note/ "小鸟笔记"
