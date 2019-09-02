@@ -1,6 +1,6 @@
 # Summary
 
-* [小鸟笔记——实用运营手册说明](README.md)
+* [小鸟笔记—实用运营手册说明](README.md)
 * [真知灼见](./renshi/index.md)
     * [赚到钱最重要的因素是资源整合](./renshi/1.md)
     * [产品要有能被喊的属性](./renshi/2.md)

@@ -1,4 +1,4 @@
-# 小鸟笔记——实用运营手册说明
+# 小鸟笔记—实用运营手册说明
 
 收藏的运营相关内容，有些是自己搜罗总结的，有些是 **caoz 的小密圈** 、**生财有术** 等付费星球中的精华贴。
 
@@ -32,7 +32,6 @@
 <img height="250px" alt="关注微信公众号" src="https://www.lijiaocn.com/img/class.jpg"/>
 <img height="250px" alt="知识星球赚钱笔记免费版" src="https://www.lijiaocn.com/img/xiaomiquan-money-free.jpeg"/>
 </div>
-
 
 ## 参考
 
