@@ -1,6 +1,17 @@
 # 小鸟笔记—实用运营手册说明
 
-收藏的运营相关内容，有些是自己搜罗总结的，有些是 **caoz 的小密圈** 、**生财有术** 等付费星球中的精华贴。
+[小鸟笔记][1] 是在日常工作学习中整理出来的使用手册，主打便捷、系统、深度、有用，内容正在逐步扩充，点击左侧边栏的“[小鸟笔记][1]”可以查看现有的手册列表。
+
+**联系方式：微信扫一扫   mail: lijiaocn@foxmail.com**
+
+<div style="display:flex;flex-direction:row">
+<img height="250px" alt="关注微信公众号" src="https://www.lijiaocn.com/img/class.jpg"/>
+<img height="250px" alt="知识星球赚钱笔记免费版" src="https://www.lijiaocn.com/img/xiaomiquan-money-free.jpeg"/>
+</div>
+
+## 实用运营手册 
+
+这里收藏的是运营相关内容，有些是自己搜罗总结的，有些是 **caoz 的小密圈** 、**生财有术** 等付费星球中的精华贴。
 
 为了避免落一个拷贝盗版的罪名，这里只摘录了一小部分感兴趣、比较实在的内容，仅供自己备忘查询，如果你也需要这些内容请 **自行付费加入获取**，这样可以省却彼此的麻烦。
 
@@ -21,6 +32,8 @@
 <img width="50%" alt="知识星球赚钱笔记免费版" src="https://www.lijiaocn.com/img/xiaomiquan-money-free.jpeg"/>
 </div>
 
+<<<<<<< HEAD
+=======
 ## 小鸟笔记
 
 [小鸟笔记][1] 是在日常工作学习中随手记录整理的手册，主打便捷、系统、有用，内容不间断扩充。
@@ -34,6 +47,7 @@
 <img height="250px" alt="知识星球赚钱笔记免费版" src="https://www.lijiaocn.com/img/xiaomiquan-money-free.jpeg"/>
 </div>
 
+>>>>>>> 58093b153dfc316a2dc7414efcffffd7651c4225
 ## 参考
 
 [1]:  https://www.lijiaocn.com/note/ "小鸟笔记"
