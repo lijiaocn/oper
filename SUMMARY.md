@@ -25,7 +25,7 @@
     * [遥控智能锁](./prod/lock.md)
 * [行业经验](./expr/index.md)
     * [销售的思维-夏俊一](./expr/saler.md)
-* [抖音运营（必读！）](./douyin/index.md)
+* [抖音运营](./douyin/index.md)
   * [变现思路](./douyin/bianxian.md) 
   * [养号买号](./douyin/yanghao.md)
   * [视频工具](./douyin/gongju.md)
