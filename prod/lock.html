@@ -1,1063 +1,287 @@
-
 <!DOCTYPE HTML>
-<html lang="zh-hans" >
+<html lang="en" class="light" dir="ltr">
     <head>
+        <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>遥控智能锁 · 小鸟笔记·李佶澳</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>遥控智能锁</title>
+
+
+        <!-- Custom HTML head -->
+        
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
-        <meta name="author" content="lijiaocn@foxmail.com">
-        
-        
-    
-    <link rel="stylesheet" href="../gitbook/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
 
-    
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-atoc/atoc.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-        
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
-    
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
-        
-    
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="../expr/" />
-    
-    
-    <link rel="prev" href="./" />
-    
-
-    <link href="https://www.lijiaocn.com/oper/feed.xml" title="运营知识手册（运营实践笔记）" rel="alternate" type="application/rss+xml" />
-
-        
-<!--Google ads -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8176866190626448",
-    enable_page_level_ads: true
-  });
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105389858-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-105389858-1');
-</script>
-
-<!--百度统计-->
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?8f59ea10145df28da8932c8743ec1d60";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
-<!--百度收录-->
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-
+        <!-- Custom theme stylesheets -->
 
     </head>
-    <body>
-        
-<div class="book">
-    <div class="book-summary">
-        
-            
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="输入并搜索" />
-</div>
-
-            
-                
-<div style="text-align:center">
-    <h2><a href="https://www.lijiaocn.com/note/" style="color:#afa790">小鸟笔记</a></h2>
-    <p style="font-weight:bold"><a style="color:lightgray;" href="https://www.lijiaocn.com">www.lijiaocn.com</a></p>
-</div>
-
-<div style="text-align:center">
-    <a href="/prog/" style="color:#afa790;font-weight:bold">编程</a>&nbsp;
-    <a href="/soft/" style="color:#afa790;font-weight:bold">软件</a>&nbsp;
-    <a href="/blog/" style="color:#afa790;font-weight:bold">博客</a>&nbsp;
-    <a href="/" style="color:#afa790;font-weight:bold">主页</a>
-</div>
-<div>
-<br>
-<ul class="summary"><li>
-<a style="color:red" target="_blank" href="/shop">每日红包</a>
-</li></ul>
-</div>
-
-<!--div style="text-align:center">
-< 250x250 >
-<ins class="adsbygoogle"
-     style="display:inline-block;width:250px;height:250px"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="9490087185"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div-->
-
-
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="../">
-            
-                <a href="../">
-            
-                    
-                    小鸟笔记—运营篇
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2" data-path="../renshi/">
-            
-                <a href="../renshi/">
-            
-                    
-                    真知灼见
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.2.1" data-path="../renshi/1.html">
-            
-                <a href="../renshi/1.html">
-            
-                    
-                    赚到钱最重要的因素是资源整合
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.2" data-path="../renshi/2.html">
-            
-                <a href="../renshi/2.html">
-            
-                    
-                    产品要有能被喊的属性
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.3" data-path="../renshi/3.html">
-            
-                <a href="../renshi/3.html">
-            
-                    
-                    真正轻松赚大钱的信息，没人会出来讲
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3" data-path="../shop/">
-            
-                <a href="../shop/">
-            
-                    
-                    流量电商
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.3.1" data-path="../shop/amazon-new-product.html">
-            
-                <a href="../shop/amazon-new-product.html">
-            
-                    
-                    亚马逊新品推爆-Lissa Tam
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.2" data-path="../shop/amazon-group.html">
-            
-                <a href="../shop/amazon-group.html">
-            
-                    
-                    亚马逊店群-路飞
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.3" data-path="../shop/taobao-group.html">
-            
-                <a href="../shop/taobao-group.html">
-            
-                    
-                    淘宝店群打法-佳境
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.4" data-path="../shop/taobao-car.html">
-            
-                <a href="../shop/taobao-car.html">
-            
-                    
-                    淘宝直通车爆款-七里香
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.5" data-path="../shop/taobao-car-ppc.html">
-            
-                <a href="../shop/taobao-car-ppc.html">
-            
-                    
-                    淘宝直通车降低PPC-七里香
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.6" data-path="../shop/res.html">
-            
-                <a href="../shop/res.html">
-            
-                    
-                    流量资源整合-百川
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.7" data-path="../shop/ad-bu-liang.html">
-            
-                <a href="../shop/ad-bu-liang.html">
-            
-                    
-                    广告补量业务与闲鱼信息差-百川
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.8" data-path="../shop/douyin.html">
-            
-                <a href="../shop/douyin.html">
-            
-                    
-                    抖音带货、知识变现-周可
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.9" data-path="../shop/cod.html">
-            
-                <a href="../shop/cod.html">
-            
-                    
-                    Affiliate Marketing 经历和抖音躺过的坑-赖才坤
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4" data-path="../social/">
-            
-                <a href="../social/">
-            
-                    
-                    社群运营
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1" data-path="../social/weixin.html">
-            
-                <a href="../social/weixin.html">
-            
-                    
-                    微信细致运营100条-杨涛
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.2" data-path="../social/zhihu.html">
-            
-                <a href="../social/zhihu.html">
-            
-                    
-                    知乎细致运营150条-潇潇
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.3" data-path="../social/media.html">
-            
-                <a href="../social/media.html">
-            
-                    
-                    新媒体增长上的一些坑和经验-火火
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="../info/">
-            
-                <a href="../info/">
-            
-                    
-                    信息差变现
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1" data-path="../info/soft.html">
-            
-                <a href="../info/soft.html">
-            
-                    
-                    免费软件销售
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6" data-path="./">
-            
-                <a href="./">
-            
-                    
-                    创意产品/服务
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter active" data-level="1.6.1" data-path="lock.html">
-            
-                <a href="lock.html">
-            
-                    
-                    遥控智能锁
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7" data-path="../expr/">
-            
-                <a href="../expr/">
-            
-                    
-                    行业经验
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1" data-path="../expr/saler.html">
-            
-                <a href="../expr/saler.html">
-            
-                    
-                    销售的思维-夏俊一
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8" data-path="../douyin/">
-            
-                <a href="../douyin/">
-            
-                    
-                    抖音运营
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.1" data-path="../douyin/bianxian.html">
-            
-                <a href="../douyin/bianxian.html">
-            
-                    
-                    变现思路
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.2" data-path="../douyin/yanghao.html">
-            
-                <a href="../douyin/yanghao.html">
-            
-                    
-                    养号买号
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.3" data-path="../douyin/gongju.html">
-            
-                <a href="../douyin/gongju.html">
-            
-                    
-                    视频工具
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.4" data-path="../douyin/fabu.html">
-            
-                <a href="../douyin/fabu.html">
-            
-                    
-                    发布技巧
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.5" data-path="../douyin/yinliu.html">
-            
-                <a href="../douyin/yinliu.html">
-            
-                    
-                    抖音引流
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.6" data-path="../douyin/zhizuo.html">
-            
-                <a href="../douyin/zhizuo.html">
-            
-                    
-                    视频制作
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.6.1" data-path="../douyin/banyun.html">
-            
-                <a href="../douyin/banyun.html">
-            
-                    
-                    搬运法
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.6.2" data-path="../douyin/tuwen.html">
-            
-                <a href="../douyin/tuwen.html">
-            
-                    
-                    图文法
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.6.3" data-path="../douyin/luping.html">
-            
-                <a href="../douyin/luping.html">
-            
-                    
-                    录屏法
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7" data-path="../douyin/xuanti.html">
-            
-                <a href="../douyin/xuanti.html">
-            
-                    
-                    主题选取
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.7.1" data-path="../douyin/cremen.html">
-            
-                <a href="../douyin/cremen.html">
-            
-                    
-                    热门主题
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.2" data-path="../douyin/fanpai.html">
-            
-                <a href="../douyin/fanpai.html">
-            
-                    
-                    翻拍热门
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.3" data-path="../douyin/ctuwen.html">
-            
-                <a href="../douyin/ctuwen.html">
-            
-                    
-                    图文主题
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.4" data-path="../douyin/cpk.md">
-            
-                <span>
-            
-                    
-                    PK主题
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.5" data-path="../douyin/kaixiang.html">
-            
-                <a href="../douyin/kaixiang.html">
-            
-                    
-                    开箱展示
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.6" data-path="../douyin/ip.html">
-            
-                <a href="../douyin/ip.html">
-            
-                    
-                    个人IP
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.7" data-path="../douyin/xiangfa.html">
-            
-                <a href="../douyin/xiangfa.html">
-            
-                    
-                    随便想想
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9" data-path="../tools/">
-            
-                <a href="../tools/">
-            
-                    
-                    工具变现
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.lijiaocn.com" target="blank" class="gitbook-link">
-            www.lijiaocn.com 提供
-        </a>
-    </li>
-</ul>
-
-
-                </nav>
-                
-<br>
-<!--div style="text-align:center"-->
-<!-- Summary_Bottom -->
-<!--ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="2156601384"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div-->
-
-
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >遥控智能锁</a>
-    </h1>
-</div>
-
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                
-<!-- Page_Top -->
-<!--div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="5702052586"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<br>
-</div-->
-
-<div style="text-align:center">
-<!-- 小鸟笔记-375*90 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:375px;height:90px"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="4394865767"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<!-- 小鸟笔记-375*90-2 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:375px;height:90px"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="7071988236"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
-
-                                <!-- toc -->
-<ul>
-<li><a href="#airbnb-&#x8FDC;&#x7A0B;&#x667A;&#x80FD;&#x9501;&#xFF0C;pin&#x7801;&#x84DD;&#x7259;&#x94A5;&#x5319;&#x5F00;&#x9501;">Airbnb &#x8FDC;&#x7A0B;&#x667A;&#x80FD;&#x9501;&#xFF0C;PIN&#x7801;/&#x84DD;&#x7259;&#x94A5;&#x5319;&#x5F00;&#x9501;</a><ul>
-<li><a href="#&#x5F00;&#x7BC7;&#x8BED;">&#x5F00;&#x7BC7;&#x8BED;</a></li>
-<li><a href="#&#x6B63;&#x6587;">&#x6B63;&#x6587;</a></li>
-<li><a href="#&#x63D0;&#x793A;">&#x63D0;&#x793A;</a></li>
-</ul>
-</li>
-</ul>
-<!-- tocstop -->
-<h1 id="airbnb-&#x8FDC;&#x7A0B;&#x667A;&#x80FD;&#x9501;&#xFF0C;pin&#x7801;&#x84DD;&#x7259;&#x94A5;&#x5319;&#x5F00;&#x9501;">Airbnb &#x8FDC;&#x7A0B;&#x667A;&#x80FD;&#x9501;&#xFF0C;PIN&#x7801;/&#x84DD;&#x7259;&#x94A5;&#x5319;&#x5F00;&#x9501;</h1>
-<p>&#x77E5;&#x8BC6;&#x661F;&#x7403;&#x3010;<a href="../">&#x751F;&#x8D22;&#x6709;&#x672F;</a>&#x3011; &#x53D1;&#x73B0;&#x7684;&#x6848;&#x4F8B;&#xFF0C;&#x672C;&#x7AD9;&#x8FDB;&#x884C;&#x4E86;&#x7CBE;&#x6821;&#x548C;&#x9AD8;&#x4EAE;&#x5904;&#x7406;&#x3002;</p>
-<h2 id="&#x5F00;&#x7BC7;&#x8BED;">&#x5F00;&#x7BC7;&#x8BED;</h2>
-<p>&#x5927;&#x5BB6;&#x597D;&#xFF0C;&#x53C8;&#x5230;&#x5468;&#x4E94;&#x5566;&#xFF01;&#x6BCF;&#x5468;&#x4E94;&#xFF0C;&#x9C7C;&#x4E38;&#x7ED9;&#x5927;&#x5BB6;&#x5E26;&#x6765;&#x4E00;&#x7BC7;&#x8D5A;&#x7F8E;&#x5143;&#x7684;&#x6848;&#x4F8B;&#xFF0C;&#x5E2E;&#x52A9;&#x5927;&#x5BB6;&#x5F00;&#x773C;&#x770B;&#x4E16;&#x754C;&#x5982;&#x4F55;&#x201C;&#x751F;&#x8D22;&#x6709;&#x672F;&#x201D;&#x3002;</p>
-<p>&#x4ECA;&#x5929;&#x7684;&#x6848;&#x4F8B;&#x662F;&#x4E00;&#x4E2A;&#x6BCF;&#x4E2A;&#x6708;&#x6536;&#x5165;40&#x4E07;&#x7684;&#x4E1A;&#x52A1;&#xFF0C;&#x800C;&#x4E14;&#x79BB;&#x4E92;&#x8054;&#x7F51;&#x6709;&#x4E9B;&#x8FDC;&#xFF0C;&#x4F46;&#x4E5F;&#x662F;&#x4ECE;&#x81EA;&#x5DF1;&#x5E73;&#x5E38;&#x751F;&#x6D3B;&#x4E2D;&#x7684;&#x75DB;&#x70B9;&#x53D1;&#x73B0;&#x4E86;&#x4E00;&#x4E2A;&#x673A;&#x4F1A;&#xFF0C;&#x5E76;&#x4E14;&#x6293;&#x4F4F;&#x4E86;&#x8FD9;&#x4E2A;&#x673A;&#x4F1A;&#x505A;&#x8D77;&#x6765;&#x7684;&#x3002; </p>
-<h2 id="&#x6B63;&#x6587;">&#x6B63;&#x6587;</h2>
-<p>&#x4E1A;&#x52A1;&#x662F;&#x5E2E;&#x52A9;&#x5728;airbnb&#x5E73;&#x53F0;&#x4E0A;&#x5C4B;&#x4E3B;&#x4EEC;&#x6362;&#x667A;&#x80FD;&#x9501;&#x3002; </p>
-<p>&#x5F88;&#x591A;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;airbnb&#x7684;&#x5C4B;&#x4E3B;&#x6CA1;&#x529E;&#x6CD5;&#x5230;&#x73B0;&#x573A;&#x5C06;&#x94A5;&#x5319;&#x7ED9;&#x5230;&#x4F4F;&#x5BBF;&#x7684;&#x4EBA;&#xFF0C;&#x6240;&#x6709;&#x884D;&#x751F;&#x51FA;&#x6765;&#x7684;&#x9700;&#x6C42;&#x662F;&#xFF1A;&#x53EF;&#x4EE5;&#x6709;&#x667A;&#x80FD;&#x9501;&#xFF0C;&#x4E1A;&#x4E3B;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;PIN&#x7801;&#x6216;&#x8005;&#x84DD;&#x7259;&#x94A5;&#x5319;&#x53D1;&#x9001;&#x7ED9;&#x5BA2;&#x4EBA;&#xFF0C;&#x5E76;&#x4E14;&#x8BBE;&#x5B9A;&#x6709;&#x6548;&#x671F;&#xFF0C;&#x901A;&#x8FC7;&#x9650;&#x5236;&#x8FD9;&#x4E9B;&#x865A;&#x62DF;&#x94A5;&#x5319;&#x7684;&#x65F6;&#x95F4;&#x6765;&#x4FDD;&#x8BC1;&#x8D22;&#x4EA7;&#x5B89;&#x5168;&#x3002; </p>
-<p>&#x4E8E;&#x662F;&#x4E3B;&#x4EBA;&#x516C;&#x5C31;&#x521B;&#x5EFA;&#x4E86;&#x8FD9;&#x6837;&#x7684;&#x667A;&#x80FD;&#x9501;&#xFF0C;&#x6837;&#x5B50;&#x89C1;&#x56FE;1&#x3001;&#x56FE;2&#x3002;</p>
-<p>&#x5728;&#x4EA7;&#x54C1;&#x8FD8;&#x6CA1;&#x6709;&#x521B;&#x5EFA;&#x51FA;&#x6765;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E3B;&#x4EBA;&#x516C;&#x505A;&#x4E86;&#x4E00;&#x4E2A;&#x4F17;&#x7B79;&#xFF0C;&#x5728;6&#x4E2A;&#x6708;&#x5185;&#x7B79;&#x96C6;&#x4E86;&#x7B2C;&#x4E00;&#x4E2A;100&#x4E07;&#x7F8E;&#x5143;&#x3002;&#x800C;&#x4E14;&#x5728;&#x4E1A;&#x52A1;&#x4E00;&#x5F00;&#x59CB;&#x7684;&#x9636;&#x6BB5;&#xFF0C;&#x56E2;&#x961F;&#x5C31;&#x60F3;&#x6E05;&#x695A;&#xFF1A;&#x8981;&#x505A;&#x5927;&#x5FC5;&#x987B;&#x8981;&#x8DDF;airbnb&#x5B98;&#x65B9;&#x4EA7;&#x751F;&#x5408;&#x4F5C;&#x3002;</p>
-<p>&#x901A;&#x8FC7;&#x5404;&#x79CD;&#x8054;&#x7CFB;&#x548C;&#x4EA4;&#x6D41;&#xFF0C;&#x6700;&#x7EC8;&#x6210;&#x529F;&#x548C;airbnb&#x5B98;&#x65B9;&#x5EFA;&#x7ACB;&#x5408;&#x7406;&#x5408;&#x4F5C;&#x5173;&#x7CFB;&#xFF0C;&#x6BEB;&#x65E0;&#x610F;&#x5916;&#x7684;&#x5BA2;&#x6237;&#x91CF;&#x56E0;&#x6B64;&#x800C;&#x98D9;&#x5347;&#x3002; </p>
-<p>&#x4F46;&#x8FC7;&#x7A0B;&#x4E2D;&#x4E5F;&#x4E5F;&#x53D6;&#x5F97;&#x4E86;&#x4E00;&#x4E2A;&#x5F88;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x4E2A;&#x7ECF;&#x9A8C;&#xFF1A;&#x4F5C;&#x4E3A;&#x786C;&#x4EF6;&#x521B;&#x4E1A;&#x516C;&#x53F8;&#xFF0C;&#x4E00;&#x5B9A;&#x8981;&#x7ED9;&#x81EA;&#x5DF1;&#x7559;&#x8DB3;&#x7F13;&#x51B2;&#x5668;&#xFF0C;&#x5426;&#x5219;&#x4E00;&#x65E6;&#x5BA2;&#x6237;&#x91CF;&#x8D77;&#x6765;&#x800C;&#x4EA7;&#x54C1;&#x8DDF;&#x4E0D;&#x4E0A;&#xFF0C;&#x4F1A;&#x5BF9;&#x54C1;&#x724C;&#x4EA7;&#x751F;&#x5F88;&#x5927;&#x7684;&#x4F24;&#x5BB3;&#x3002; &#x9664;&#x4E86;&#x4E0E;airbnb&#x5EFA;&#x7ACB;&#x5408;&#x4F5C;&#x5173;&#x7CFB;&#xFF0C;&#x56E2;&#x961F;&#x4E5F;&#x8BA4;&#x8BC6;&#x5230;&#xFF0C;&#x627E;&#x5230;&#x7C7B;&#x4F3C;&#x4E8E;airbnb&#x8FD9;&#x6837;&#x7684;&#x5927;&#x516C;&#x53F8;&#xFF0C;&#x901A;&#x8FC7;&#x8FD9;&#x4E9B;&#x6760;&#x6746;&#x6765;&#x8FDB;&#x4E00;&#x6B65;&#x64AC;&#x52A8;&#x9500;&#x91CF;&#x662F;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x597D;&#x7684;&#x529E;&#x6CD5;&#xFF0C;&#x6240;&#x4EE5;&#x9646;&#x7EED;&#x4E0E;booking.com&#xFF0C; bookingsync&#x7B49;&#x516C;&#x53F8;&#x5EFA;&#x7ACB;&#x8D77;&#x6765;&#x5408;&#x4F5C;&#x3002;</p>
-<p>&#x5728;&#x54C1;&#x724C;&#x7684;&#x4F20;&#x64AD;&#x4E0A;&#xFF0C;&#x8FD8;&#x5728;facebook&#x4E0A;&#x6295;&#x653E;&#x5E7F;&#x544A;&#xFF0C;&#x8BA9;&#x66F4;&#x591A;&#x7684;&#x4E2A;&#x4EBA;&#x6216;&#x8005;&#x4F01;&#x4E1A;&#x7528;&#x6237;&#x4E86;&#x89E3;&#x3001;&#x8BA4;&#x53EF;&#x8FD9;&#x4E2A;&#x800C;&#x54C1;&#x724C;&#x3002; &#x540C;&#x65F6;&#xFF0C;&#x627E;&#x5404;&#x79CD;&#x7F51;&#x7EA2;&#x6216;&#x8005;&#x5E73;&#x53F0;&#x8FDB;&#x884C;&#x4EA7;&#x54C1;&#x8BC4;&#x6D4B;&#xFF0C;&#x5E76;&#x4E14;&#x771F;&#x8BDA;&#x7684;&#x5BF9;&#x5F85;&#x6BCF;&#x4E00;&#x4E2A;&#x5DEE;&#x8BC4;&#xFF0C;&#x7ED9;&#x51FA;&#x53CD;&#x9988;&#x548C;&#x4F18;&#x5316;&#xFF0C;&#x6162;&#x6162;&#x7684;&#x79EF;&#x7D2F;&#x7528;&#x6237;&#x7684;&#x4FE1;&#x4EFB;&#x3002;</p>
-<p>&#x867D;&#x7136;&#x521B;&#x4E1A;&#x603B;&#x4F53;&#x6765;&#x8BF4;&#x662F;&#x987A;&#x5229;&#x7684;&#xFF0C;&#x4F46;&#x4E5F;&#x786E;&#x5B9E;&#x6389;&#x8FDB;&#x4E86;&#x4E00;&#x4E9B;&#x5751;&#x3002; &#x6BD4;&#x5982;&#x4E3B;&#x4EBA;&#x516C;&#x8BF4;&#x521B;&#x4E1A;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x5B66;&#x4E60;&#x5230;&#x7684;&#x6700;&#x91CD;&#x8981;&#x7684;&#x51E0;&#x4E2A;&#x7ECF;&#x9A8C;&#x5C31;&#x662F;:</p>
-<p>&#x5C3D;&#x529B;&#x505A;&#x597D;&#x54C1;&#x724C;&#x548C;&#x60C5;&#x62A5;&#x7BA1;&#x7406;&#xFF0C;&#x8DDF;&#x8E2A;&#x4EA7;&#x54C1;&#x5728;&#x4E92;&#x8054;&#x7F51;&#x4E0A;&#x7684;&#x6BCF;&#x4E00;&#x4E2A;&#x58F0;&#x97F3;&#xFF0C;&#x52AA;&#x529B;&#x7EF4;&#x6301;&#x54C1;&#x724C;&#x5F62;&#x8C61;&#x5E76;&#x7ED9;&#x51FA;&#x53CD;&#x9988;&#xFF0C;&#x867D;&#x7136;&#x8FD9;&#x6837;&#x7684;&#x4E8B;&#x60C5;&#x5F88;&#x5FAE;&#x5C0F;&#x4E5F;&#x5F88;&#x7E41;&#x7410;&#xFF0C;&#x4F46;&#x662F;&#x957F;&#x671F;&#x6765;&#x770B;&#xFF0C;&#x4EF7;&#x503C;&#x5DE8;&#x5927;&#xFF0C;&#x4E5F;&#x786E;&#x5B9E;&#x770B;&#x5230;&#x5F88;&#x591A;&#x66FE;&#x7ECF;&#x62B1;&#x6028;&#x7684;&#x7528;&#x6237;&#xFF0C;&#x56E0;&#x4E3A;&#x8FD9;&#x4E9B;&#x5FAE;&#x5C0F;&#x7684;&#x52A8;&#x4F5C;&#xFF0C;&#x6539;&#x53D8;&#x4E86;&#x574F;&#x7684;&#x5370;&#x8C61;&#x3002;</p>
-<p>&#x4E0D;&#x8981;&#x8F7B;&#x6613;&#x6EE1;&#x8DB3;&#x73B0;&#x5728;&#x7684;&#x4EA7;&#x54C1;&#xFF0C;&#x5B83;&#x4E00;&#x5B9A;&#x8FD8;&#x6709;&#x5F88;&#x591A;&#x5730;&#x65B9;&#x53EF;&#x4EE5;&#x505A;&#x7684;&#x66F4;&#x597D;&#xFF0C;&#x4F60;&#x8981;&#x4EA4;&#x4ED8;&#x7ED9;&#x5E02;&#x573A;&#x4E0A;&#x9762;&#x7684;&#x5546;&#x54C1;&#x662F;&#x6BD4;&#x597D;&#x66F4;&#x597D;&#x4E00;&#x70B9;&#x3002;&#x6BD4;&#x5982;&#x4E4B;&#x524D;&#x7684;&#x667A;&#x80FD;&#x9501;&#x662F;&#x4F9D;&#x8D56;&#x4E8E;wifi&#x7684;&#xFF0C;&#x867D;&#x7136;&#x8FD9;&#x4E2A;&#x5DF2;&#x7ECF;&#x5E2E;&#x52A9;&#x4E86;&#x5F88;&#x591A;&#x4E1A;&#x4E3B;&#x89E3;&#x51B3;&#x4E86;&#x95EE;&#x9898;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x5C11;&#x5730;&#x65B9;wifi&#x5E76;&#x4E0D;&#x597D;&#xFF0C;&#x4E5F;&#x6709;&#x5F88;&#x591A;&#x5BA2;&#x6237;&#x62B1;&#x6028;&#xFF0C;&#x6240;&#x4EE5;&#x4EA7;&#x54C1;&#x56E2;&#x961F;&#x4E0D;&#x65AD;&#x7684;&#x7EE7;&#x7EED;&#x53BB;&#x7814;&#x7A76;&#xFF0C;&#x7EC8;&#x4E8E;&#x505A;&#x51FA;&#x6765;&#x4E0D;&#x4F9D;&#x8D56;&#x4E8E;wifi&#x7684;&#x4EA7;&#x54C1;&#xFF0C;&#x8FD9;&#x6837;&#x7684;&#x9501;&#x66F4;&#x53EF;&#x9760;&#x3001;&#x66F4;&#x5B89;&#x5168;&#x3002;</p>
-<p>&#x4E0D;&#x8981;&#x8BD5;&#x56FE;&#x540C;&#x65F6;&#x89E3;&#x51B3;&#x591A;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x4E13;&#x6CE8;&#x4E8E;&#x89E3;&#x51B3;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#x3002; &#x521B;&#x4E1A;&#x516C;&#x53F8;&#x7684;&#x8D44;&#x6E90;&#x975E;&#x5E38;&#x6709;&#x9650;&#xFF0C;&#x4E3A;&#x4E86;&#x6700;&#x5927;&#x53EF;&#x80FD;&#x63D0;&#x5347;&#x6210;&#x529F;&#x6982;&#x7387;&#xFF0C;&#x53EA;&#x9700;&#x8981;&#x5173;&#x6CE8;&#x4E00;&#x4EF6;&#x4E8B;&#x3002; &#x60F3;&#x592A;&#x591A;&#xFF0C;&#x4E0D;&#x662F;&#x597D;&#x4E8B;&#x60C5;&#x3002; </p>
-<p>&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x5F88;&#x6709;&#x4EF7;&#x503C;&#x7684;&#x7ECF;&#x9A8C;&#x5C31;&#x662F;&#xFF1A;&#x4FDD;&#x6301;&#x8010;&#x5FC3;&#xFF0C;&#x522B;&#x8F7B;&#x6613;&#x89C4;&#x6A21;&#x5316;&#x3002; &#x5728;&#x4E00;&#x4E2A;&#x4EA7;&#x54C1;&#x6216;&#x8005;&#x670D;&#x52A1;&#x8FD8;&#x6CA1;&#x8DB3;&#x591F;&#x4F18;&#x79C0;&#x4E4B;&#x524D;&#xFF0C;&#x62D3;&#x5C55;&#x5230;&#x5F88;&#x591A;&#x5E73;&#x53F0;&#x6216;&#x8005;&#x56FD;&#x5BB6;&#xFF0C;&#x4F1A;&#x62C9;&#x4F4E;&#x6BCF;&#x4E2A;&#x4EBA;&#x7684;&#x5DE5;&#x4F5C;&#x6548;&#x7387;&#xFF0C;&#x53CD;&#x800C;&#x5BFC;&#x81F4;&#x89C4;&#x6A21;&#x8D77;&#x7684;&#x66F4;&#x6162;&#xFF0C;&#x4E0E;&#x5176;&#x8FD9;&#x6837;&#xFF0C;&#x4E0D;&#x5982;&#x5148;&#x96C6;&#x4E2D;&#x7CBE;&#x529B;&#x628A;&#x4E00;&#x4E2A;&#x5730;&#x533A;&#x7684;&#x5BA2;&#x6237;&#x670D;&#x52A1;&#x7684;&#x8DB3;&#x591F;&#x597D;&#xFF0C;&#x6162;&#x6162;&#x6765;&#xFF0C;&#x4F1A;&#x66F4;&#x5FEB;&#x3002;</p>
-<p>&#x4ECA;&#x5929;&#x7684;&#x4E00;&#x8D77;&#x8D5A;&#x7F8E;&#x5143;&#x5C31;&#x662F;&#x8FD9;&#x6837;&#xFF0C;&#x559C;&#x6B22;&#x7684;&#x5708;&#x53CB;&#x7ED9;&#x9C7C;&#x4E38;&#x4E00;&#x4E2A;&#x8D5E;&#x6109;&#x5FEB;</p>
-<p>&#x4E0B;&#x5468;&#x4E94;#&#x4E00;&#x8D77;&#x8D5A;&#x7F8E;&#x5143;# &#x4E0D;&#x89C1;&#x4E0D;&#x6563;&#xFF01;</p>
-<h2 id="&#x63D0;&#x793A;">&#x63D0;&#x793A;</h2>
-<p>&#x672C;&#x6587;&#x6765;&#x81EA;&#x4E8E;&#x77E5;&#x8BC6;&#x661F;&#x7403;&#x3010;<a href="https://www.lijiaocn.com/img/xiaomiquan-scys.png" target="_blank">&#x751F;&#x8D22;&#x6709;&#x672F;</a>&#x3011;&#x539F;&#x6587;&#x7ECF;&#x8FC7;&#x672C;&#x7AD9;&#x7CBE;&#x6821;&#x3001;&#x5206;&#x6BB5;&#x548C;&#x9AD8;&#x4EAE;&#x5904;&#x7406;&#xFF0C;<a href="../">&#x6765;&#x6E90;&#x4ECB;&#x7ECD;</a></p>
-<p><img src="https://www.lijiaocn.com/img/xiaomiquan-scys.png" alt="&#x77E5;&#x8BC6;&#x661F;&#x7403;&#x751F;&#x8D22;&#x6709;&#x672F;"></p>
-<script type="text/javascript">var className='atoc';</script>
-                                
-
-<div>
-<!-- 匹配内容 -->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="6443696990"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
-<!-- Page_Bottom -->
-<!--div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="7945072540"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div-->
-
-<div style="display:flex;flex-direction:row;justify-content:center">
-<br>
-<a href="https://study.163.com/provider/400000000376006/course.htm?share=2&shareId=400000000376006"><img height="250px" alt="微信公众号:我的网课" src="https://www.lijiaocn.com/img/class.jpg"/></a>
-<a href="https://weibo.com/zuiniur/profile"><img height="250px" alt="微信公众号:我的资产" src="https://www.lijiaocn.com/money/img/self.jpg"/></a>
-</div>
-
-
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
-                        </div>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <div style="width:100%;text-align:center">
+                  <h2 style="color:#afa790">小鸟笔记-运营经验</h2>
+                  <p style="font-weight:bold"><a style="color:lightgray;" href="https://www.lijiaocn.com">www.lijiaocn.com</a></p>
+                </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 小鸟笔记—运营篇</a></li><li class="chapter-item expanded "><a href="../renshi/index.html"><strong aria-hidden="true">2.</strong> 真知灼见</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../renshi/1.html"><strong aria-hidden="true">2.1.</strong> 赚到钱最重要的因素是资源整合</a></li><li class="chapter-item expanded "><a href="../renshi/2.html"><strong aria-hidden="true">2.2.</strong> 产品要有能被喊的属性</a></li><li class="chapter-item expanded "><a href="../renshi/3.html"><strong aria-hidden="true">2.3.</strong> 真正轻松赚大钱的信息，没人会出来讲</a></li></ol></li><li class="chapter-item expanded "><a href="../shop/index.html"><strong aria-hidden="true">3.</strong> 流量电商</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../shop/amazon-new-product.html"><strong aria-hidden="true">3.1.</strong> 亚马逊新品推爆-Lissa Tam</a></li><li class="chapter-item expanded "><a href="../shop/amazon-group.html"><strong aria-hidden="true">3.2.</strong> 亚马逊店群-路飞</a></li><li class="chapter-item expanded "><a href="../shop/taobao-group.html"><strong aria-hidden="true">3.3.</strong> 淘宝店群打法-佳境</a></li><li class="chapter-item expanded "><a href="../shop/taobao-car.html"><strong aria-hidden="true">3.4.</strong> 淘宝直通车爆款-七里香</a></li><li class="chapter-item expanded "><a href="../shop/taobao-car-ppc.html"><strong aria-hidden="true">3.5.</strong> 淘宝直通车降低PPC-七里香</a></li><li class="chapter-item expanded "><a href="../shop/res.html"><strong aria-hidden="true">3.6.</strong> 流量资源整合-百川</a></li><li class="chapter-item expanded "><a href="../shop/ad-bu-liang.html"><strong aria-hidden="true">3.7.</strong> 广告补量业务与闲鱼信息差-百川</a></li><li class="chapter-item expanded "><a href="../shop/douyin.html"><strong aria-hidden="true">3.8.</strong> 抖音带货、知识变现-周可</a></li><li class="chapter-item expanded "><a href="../shop/cod.html"><strong aria-hidden="true">3.9.</strong> Affiliate Marketing 经历和抖音躺过的坑-赖才坤</a></li></ol></li><li class="chapter-item expanded "><a href="../social/index.html"><strong aria-hidden="true">4.</strong> 社群运营</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social/weixin.html"><strong aria-hidden="true">4.1.</strong> 微信细致运营100条-杨涛</a></li><li class="chapter-item expanded "><a href="../social/zhihu.html"><strong aria-hidden="true">4.2.</strong> 知乎细致运营150条-潇潇</a></li><li class="chapter-item expanded "><a href="../social/media.html"><strong aria-hidden="true">4.3.</strong> 新媒体增长上的一些坑和经验-火火</a></li></ol></li><li class="chapter-item expanded "><a href="../info/index.html"><strong aria-hidden="true">5.</strong> 信息差变现</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../info/soft.html"><strong aria-hidden="true">5.1.</strong> 免费软件销售</a></li></ol></li><li class="chapter-item expanded "><a href="../prod/index.html"><strong aria-hidden="true">6.</strong> 创意产品/服务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../prod/lock.html" class="active"><strong aria-hidden="true">6.1.</strong> 遥控智能锁</a></li></ol></li><li class="chapter-item expanded "><a href="../expr/index.html"><strong aria-hidden="true">7.</strong> 行业经验</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../expr/saler.html"><strong aria-hidden="true">7.1.</strong> 销售的思维-夏俊一</a></li></ol></li><li class="chapter-item expanded "><a href="../douyin/index.html"><strong aria-hidden="true">8.</strong> 抖音运营</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/bianxian.html"><strong aria-hidden="true">8.1.</strong> 变现思路</a></li><li class="chapter-item expanded "><a href="../douyin/yanghao.html"><strong aria-hidden="true">8.2.</strong> 养号买号</a></li><li class="chapter-item expanded "><a href="../douyin/gongju.html"><strong aria-hidden="true">8.3.</strong> 视频工具</a></li><li class="chapter-item expanded "><a href="../douyin/fabu.html"><strong aria-hidden="true">8.4.</strong> 发布技巧</a></li><li class="chapter-item expanded "><a href="../douyin/yinliu.html"><strong aria-hidden="true">8.5.</strong> 抖音引流</a></li><li class="chapter-item expanded "><a href="../douyin/zhizuo.html"><strong aria-hidden="true">8.6.</strong> 视频制作</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/banyun.html"><strong aria-hidden="true">8.6.1.</strong> 搬运法</a></li><li class="chapter-item expanded "><a href="../douyin/tuwen.html"><strong aria-hidden="true">8.6.2.</strong> 图文法</a></li><li class="chapter-item expanded "><a href="../douyin/luping.html"><strong aria-hidden="true">8.6.3.</strong> 录屏法</a></li></ol></li><li class="chapter-item expanded "><a href="../douyin/xuanti.html"><strong aria-hidden="true">8.7.</strong> 主题选取</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/cremen.html"><strong aria-hidden="true">8.7.1.</strong> 热门主题</a></li><li class="chapter-item expanded "><a href="../douyin/fanpai.html"><strong aria-hidden="true">8.7.2.</strong> 翻拍热门</a></li><li class="chapter-item expanded "><a href="../douyin/ctuwen.html"><strong aria-hidden="true">8.7.3.</strong> 图文主题</a></li><li class="chapter-item expanded "><a href="../douyin/cpk.html"><strong aria-hidden="true">8.7.4.</strong> PK主题</a></li><li class="chapter-item expanded "><a href="../douyin/kaixiang.html"><strong aria-hidden="true">8.7.5.</strong> 开箱展示</a></li><li class="chapter-item expanded "><a href="../douyin/ip.html"><strong aria-hidden="true">8.7.6.</strong> 个人IP</a></li><li class="chapter-item expanded "><a href="../douyin/xiangfa.html"><strong aria-hidden="true">8.7.7.</strong> 随便想想</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../tools/index.html"><strong aria-hidden="true">9.</strong> 工具变现</a></li></ol>
+               <div style="width:100%;text-align:center">
+                  <img style="width:100%" src="https://www.lijiaocn.com/img/ercode/cur.jpg"/>
+               </div>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
                     </div>
-                
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div style="text-align:center;width:100%">
+                    <!--h1>顶部条幅广告</h1-->
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8176866190626448"
+                     crossorigin="anonymous"></script>
+                     <!-- 顶部条幅广告 -->
+                    <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-8176866190626448"
+                     data-ad-slot="1000173679"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                     <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                     </script>
+                </div>
+
+                <div id="content" class="content">
+                    <main>
+                        <!-- toc -->
+<h1 id="airbnb-远程智能锁pin码蓝牙钥匙开锁"><a class="header" href="#airbnb-远程智能锁pin码蓝牙钥匙开锁">Airbnb 远程智能锁，PIN码/蓝牙钥匙开锁</a></h1>
+<p>知识星球【<a href="../README.html">生财有术</a>】 发现的案例，本站进行了精校和高亮处理。</p>
+<h2 id="开篇语"><a class="header" href="#开篇语">开篇语</a></h2>
+<p>大家好，又到周五啦！每周五，鱼丸给大家带来一篇赚美元的案例，帮助大家开眼看世界如何“生财有术”。</p>
+<p>今天的案例是一个每个月收入40万的业务，而且离互联网有些远，但也是从自己平常生活中的痛点发现了一个机会，并且抓住了这个机会做起来的。 </p>
+<h2 id="正文"><a class="header" href="#正文">正文</a></h2>
+<p>业务是帮助在airbnb平台上屋主们换智能锁。 </p>
+<p>很多情况下，airbnb的屋主没办法到现场将钥匙给到住宿的人，所有衍生出来的需求是：可以有智能锁，业主可以创建PIN码或者蓝牙钥匙发送给客人，并且设定有效期，通过限制这些虚拟钥匙的时间来保证财产安全。 </p>
+<p>于是主人公就创建了这样的智能锁，样子见图1、图2。</p>
+<p>在产品还没有创建出来的时候，主人公做了一个众筹，在6个月内筹集了第一个100万美元。而且在业务一开始的阶段，团队就想清楚：要做大必须要跟airbnb官方产生合作。</p>
+<p>通过各种联系和交流，最终成功和airbnb官方建立合理合作关系，毫无意外的客户量因此而飙升。 </p>
+<p>但过程中也也取得了一个很重要的一个经验：作为硬件创业公司，一定要给自己留足缓冲器，否则一旦客户量起来而产品跟不上，会对品牌产生很大的伤害。 除了与airbnb建立合作关系，团队也认识到，找到类似于airbnb这样的大公司，通过这些杠杆来进一步撬动销量是一个非常好的办法，所以陆续与booking.com， bookingsync等公司建立起来合作。</p>
+<p>在品牌的传播上，还在facebook上投放广告，让更多的个人或者企业用户了解、认可这个而品牌。 同时，找各种网红或者平台进行产品评测，并且真诚的对待每一个差评，给出反馈和优化，慢慢的积累用户的信任。</p>
+<p>虽然创业总体来说是顺利的，但也确实掉进了一些坑。 比如主人公说创业过程中，学习到的最重要的几个经验就是:</p>
+<p>尽力做好品牌和情报管理，跟踪产品在互联网上的每一个声音，努力维持品牌形象并给出反馈，虽然这样的事情很微小也很繁琐，但是长期来看，价值巨大，也确实看到很多曾经抱怨的用户，因为这些微小的动作，改变了坏的印象。</p>
+<p>不要轻易满足现在的产品，它一定还有很多地方可以做的更好，你要交付给市场上面的商品是比好更好一点。比如之前的智能锁是依赖于wifi的，虽然这个已经帮助了很多业主解决了问题，但是不少地方wifi并不好，也有很多客户抱怨，所以产品团队不断的继续去研究，终于做出来不依赖于wifi的产品，这样的锁更可靠、更安全。</p>
+<p>不要试图同时解决多个问题，专注于解决一个问题。 创业公司的资源非常有限，为了最大可能提升成功概率，只需要关注一件事。 想太多，不是好事情。 </p>
+<p>另外一个很有价值的经验就是：保持耐心，别轻易规模化。 在一个产品或者服务还没足够优秀之前，拓展到很多平台或者国家，会拉低每个人的工作效率，反而导致规模起的更慢，与其这样，不如先集中精力把一个地区的客户服务的足够好，慢慢来，会更快。</p>
+<p>今天的一起赚美元就是这样，喜欢的圈友给鱼丸一个赞愉快</p>
+<p>下周五#一起赚美元# 不见不散！</p>
+<h2 id="提示"><a class="header" href="#提示">提示</a></h2>
+<p>本文来自于知识星球【<a href="https://www.lijiaocn.com/img/xiaomiquan-scys.png">生财有术</a>】原文经过本站精校、分段和高亮处理，<a href="../README.html">来源介绍</a></p>
+<p><img src="https://www.lijiaocn.com/img/xiaomiquan-scys.png" alt="知识星球生财有术" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../prod/index.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../expr/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+                <div style="text-align:center;width:100%">
+                    <!--h1>底部相关广告</h1-->
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8176866190626448"
+                         crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-format="autorelaxed"
+                         data-ad-client="ca-pub-8176866190626448"
+                         data-ad-slot="6443696990"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
             </div>
 
-            
-                
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 创意产品/服务">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="../expr/" class="navigation navigation-next " aria-label="Next page: 行业经验">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
-        
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../prod/index.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../expr/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
     </div>
-
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"遥控智能锁","level":"1.6.1","depth":2,"next":{"title":"行业经验","level":"1.7","depth":1,"path":"expr/index.md","ref":"./expr/index.md","articles":[{"title":"销售的思维-夏俊一","level":"1.7.1","depth":2,"path":"expr/saler.md","ref":"./expr/saler.md","articles":[]}]},"previous":{"title":"创意产品/服务","level":"1.6","depth":1,"path":"prod/index.md","ref":"./prod/index.md","articles":[{"title":"遥控智能锁","level":"1.6.1","depth":2,"path":"prod/lock.md","ref":"./prod/lock.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":[{"name":"theme-lijiaocn","version":"git+https://github.com/lijiaocn/theme-lijiaocn.git"},"atoc","toggle-chapters","rss"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"atoc":{"addClass":true,"className":"atoc"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":[],"title":"运营知识手册（运营实践笔记）","description":"菜鸟的运营知识学习手册，抖音运营知识汇总，短视频制作技巧，运营实践","author":"李佶澳","site_url":"https://www.lijiaocn.com/oper/","feed_url":"https://www.lijiaocn.com/oper/feed.xml"},"highlight":{},"theme-lijiaocn":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"lijiaocn@foxmail.com","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"language":"zh-hans","gitbook":">=3.0.0"},"file":{"path":"prod/lock.md","mtime":"2022-05-13T07:29:51.368Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-05-13T09:41:25.402Z"},"basePath":"..","book":{"language":""}});
-        });
-    </script>
-</div>
-
-        
-    <script src="../gitbook/gitbook.js"></script>
-    <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-atoc/atoc.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-rss/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-
     </body>
 </html>
-

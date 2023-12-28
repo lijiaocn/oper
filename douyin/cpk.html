@@ -1,0 +1,264 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>PK主题</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <div style="width:100%;text-align:center">
+                  <h2 style="color:#afa790">小鸟笔记-运营经验</h2>
+                  <p style="font-weight:bold"><a style="color:lightgray;" href="https://www.lijiaocn.com">www.lijiaocn.com</a></p>
+                </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 小鸟笔记—运营篇</a></li><li class="chapter-item expanded "><a href="../renshi/index.html"><strong aria-hidden="true">2.</strong> 真知灼见</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../renshi/1.html"><strong aria-hidden="true">2.1.</strong> 赚到钱最重要的因素是资源整合</a></li><li class="chapter-item expanded "><a href="../renshi/2.html"><strong aria-hidden="true">2.2.</strong> 产品要有能被喊的属性</a></li><li class="chapter-item expanded "><a href="../renshi/3.html"><strong aria-hidden="true">2.3.</strong> 真正轻松赚大钱的信息，没人会出来讲</a></li></ol></li><li class="chapter-item expanded "><a href="../shop/index.html"><strong aria-hidden="true">3.</strong> 流量电商</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../shop/amazon-new-product.html"><strong aria-hidden="true">3.1.</strong> 亚马逊新品推爆-Lissa Tam</a></li><li class="chapter-item expanded "><a href="../shop/amazon-group.html"><strong aria-hidden="true">3.2.</strong> 亚马逊店群-路飞</a></li><li class="chapter-item expanded "><a href="../shop/taobao-group.html"><strong aria-hidden="true">3.3.</strong> 淘宝店群打法-佳境</a></li><li class="chapter-item expanded "><a href="../shop/taobao-car.html"><strong aria-hidden="true">3.4.</strong> 淘宝直通车爆款-七里香</a></li><li class="chapter-item expanded "><a href="../shop/taobao-car-ppc.html"><strong aria-hidden="true">3.5.</strong> 淘宝直通车降低PPC-七里香</a></li><li class="chapter-item expanded "><a href="../shop/res.html"><strong aria-hidden="true">3.6.</strong> 流量资源整合-百川</a></li><li class="chapter-item expanded "><a href="../shop/ad-bu-liang.html"><strong aria-hidden="true">3.7.</strong> 广告补量业务与闲鱼信息差-百川</a></li><li class="chapter-item expanded "><a href="../shop/douyin.html"><strong aria-hidden="true">3.8.</strong> 抖音带货、知识变现-周可</a></li><li class="chapter-item expanded "><a href="../shop/cod.html"><strong aria-hidden="true">3.9.</strong> Affiliate Marketing 经历和抖音躺过的坑-赖才坤</a></li></ol></li><li class="chapter-item expanded "><a href="../social/index.html"><strong aria-hidden="true">4.</strong> 社群运营</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social/weixin.html"><strong aria-hidden="true">4.1.</strong> 微信细致运营100条-杨涛</a></li><li class="chapter-item expanded "><a href="../social/zhihu.html"><strong aria-hidden="true">4.2.</strong> 知乎细致运营150条-潇潇</a></li><li class="chapter-item expanded "><a href="../social/media.html"><strong aria-hidden="true">4.3.</strong> 新媒体增长上的一些坑和经验-火火</a></li></ol></li><li class="chapter-item expanded "><a href="../info/index.html"><strong aria-hidden="true">5.</strong> 信息差变现</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../info/soft.html"><strong aria-hidden="true">5.1.</strong> 免费软件销售</a></li></ol></li><li class="chapter-item expanded "><a href="../prod/index.html"><strong aria-hidden="true">6.</strong> 创意产品/服务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../prod/lock.html"><strong aria-hidden="true">6.1.</strong> 遥控智能锁</a></li></ol></li><li class="chapter-item expanded "><a href="../expr/index.html"><strong aria-hidden="true">7.</strong> 行业经验</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../expr/saler.html"><strong aria-hidden="true">7.1.</strong> 销售的思维-夏俊一</a></li></ol></li><li class="chapter-item expanded "><a href="../douyin/index.html"><strong aria-hidden="true">8.</strong> 抖音运营</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/bianxian.html"><strong aria-hidden="true">8.1.</strong> 变现思路</a></li><li class="chapter-item expanded "><a href="../douyin/yanghao.html"><strong aria-hidden="true">8.2.</strong> 养号买号</a></li><li class="chapter-item expanded "><a href="../douyin/gongju.html"><strong aria-hidden="true">8.3.</strong> 视频工具</a></li><li class="chapter-item expanded "><a href="../douyin/fabu.html"><strong aria-hidden="true">8.4.</strong> 发布技巧</a></li><li class="chapter-item expanded "><a href="../douyin/yinliu.html"><strong aria-hidden="true">8.5.</strong> 抖音引流</a></li><li class="chapter-item expanded "><a href="../douyin/zhizuo.html"><strong aria-hidden="true">8.6.</strong> 视频制作</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/banyun.html"><strong aria-hidden="true">8.6.1.</strong> 搬运法</a></li><li class="chapter-item expanded "><a href="../douyin/tuwen.html"><strong aria-hidden="true">8.6.2.</strong> 图文法</a></li><li class="chapter-item expanded "><a href="../douyin/luping.html"><strong aria-hidden="true">8.6.3.</strong> 录屏法</a></li></ol></li><li class="chapter-item expanded "><a href="../douyin/xuanti.html"><strong aria-hidden="true">8.7.</strong> 主题选取</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/cremen.html"><strong aria-hidden="true">8.7.1.</strong> 热门主题</a></li><li class="chapter-item expanded "><a href="../douyin/fanpai.html"><strong aria-hidden="true">8.7.2.</strong> 翻拍热门</a></li><li class="chapter-item expanded "><a href="../douyin/ctuwen.html"><strong aria-hidden="true">8.7.3.</strong> 图文主题</a></li><li class="chapter-item expanded "><a href="../douyin/cpk.html" class="active"><strong aria-hidden="true">8.7.4.</strong> PK主题</a></li><li class="chapter-item expanded "><a href="../douyin/kaixiang.html"><strong aria-hidden="true">8.7.5.</strong> 开箱展示</a></li><li class="chapter-item expanded "><a href="../douyin/ip.html"><strong aria-hidden="true">8.7.6.</strong> 个人IP</a></li><li class="chapter-item expanded "><a href="../douyin/xiangfa.html"><strong aria-hidden="true">8.7.7.</strong> 随便想想</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../tools/index.html"><strong aria-hidden="true">9.</strong> 工具变现</a></li></ol>
+               <div style="width:100%;text-align:center">
+                  <img style="width:100%" src="https://www.lijiaocn.com/img/ercode/cur.jpg"/>
+               </div>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div style="text-align:center;width:100%">
+                    <!--h1>顶部条幅广告</h1-->
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8176866190626448"
+                     crossorigin="anonymous"></script>
+                     <!-- 顶部条幅广告 -->
+                    <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-8176866190626448"
+                     data-ad-slot="1000173679"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                     <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                     </script>
+                </div>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="pk主题"><a class="header" href="#pk主题">PK主题</a></h1>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../douyin/ctuwen.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../douyin/kaixiang.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+                <div style="text-align:center;width:100%">
+                    <!--h1>底部相关广告</h1-->
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8176866190626448"
+                         crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-format="autorelaxed"
+                         data-ad-client="ca-pub-8176866190626448"
+                         data-ad-slot="6443696990"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../douyin/ctuwen.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../douyin/kaixiang.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>

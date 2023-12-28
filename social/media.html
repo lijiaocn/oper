@@ -1,1103 +1,336 @@
-
 <!DOCTYPE HTML>
-<html lang="zh-hans" >
+<html lang="en" class="light" dir="ltr">
     <head>
+        <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>新媒体增长上的一些坑和经验-火火 · 小鸟笔记·李佶澳</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>新媒体增长上的一些坑和经验-火火</title>
+
+
+        <!-- Custom HTML head -->
+        
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
-        <meta name="author" content="lijiaocn@foxmail.com">
-        
-        
-    
-    <link rel="stylesheet" href="../gitbook/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
 
-    
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-atoc/atoc.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-toggle-chapters/toggle.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-        
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
-    
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
-        
-    
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="../info/" />
-    
-    
-    <link rel="prev" href="zhihu.html" />
-    
-
-    <link href="https://www.lijiaocn.com/oper/feed.xml" title="运营知识手册（运营实践笔记）" rel="alternate" type="application/rss+xml" />
-
-        
-<!--Google ads -->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-8176866190626448",
-    enable_page_level_ads: true
-  });
-</script>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-105389858-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-105389858-1');
-</script>
-
-<!--百度统计-->
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?8f59ea10145df28da8932c8743ec1d60";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
-
-<!--百度收录-->
-<script>
-(function(){
-    var bp = document.createElement('script');
-    var curProtocol = window.location.protocol.split(':')[0];
-    if (curProtocol === 'https') {
-        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-    }
-    else {
-        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-    }
-    var s = document.getElementsByTagName("script")[0];
-    s.parentNode.insertBefore(bp, s);
-})();
-</script>
-
+        <!-- Custom theme stylesheets -->
 
     </head>
-    <body>
-        
-<div class="book">
-    <div class="book-summary">
-        
-            
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="输入并搜索" />
-</div>
-
-            
-                
-<div style="text-align:center">
-    <h2><a href="https://www.lijiaocn.com/note/" style="color:#afa790">小鸟笔记</a></h2>
-    <p style="font-weight:bold"><a style="color:lightgray;" href="https://www.lijiaocn.com">www.lijiaocn.com</a></p>
-</div>
-
-<div style="text-align:center">
-    <a href="/prog/" style="color:#afa790;font-weight:bold">编程</a>&nbsp;
-    <a href="/soft/" style="color:#afa790;font-weight:bold">软件</a>&nbsp;
-    <a href="/blog/" style="color:#afa790;font-weight:bold">博客</a>&nbsp;
-    <a href="/" style="color:#afa790;font-weight:bold">主页</a>
-</div>
-<div>
-<br>
-<ul class="summary"><li>
-<a style="color:red" target="_blank" href="/shop">每日红包</a>
-</li></ul>
-</div>
-
-<!--div style="text-align:center">
-< 250x250 >
-<ins class="adsbygoogle"
-     style="display:inline-block;width:250px;height:250px"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="9490087185"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div-->
-
-
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="../">
-            
-                <a href="../">
-            
-                    
-                    小鸟笔记—运营篇
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2" data-path="../renshi/">
-            
-                <a href="../renshi/">
-            
-                    
-                    真知灼见
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.2.1" data-path="../renshi/1.html">
-            
-                <a href="../renshi/1.html">
-            
-                    
-                    赚到钱最重要的因素是资源整合
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.2" data-path="../renshi/2.html">
-            
-                <a href="../renshi/2.html">
-            
-                    
-                    产品要有能被喊的属性
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2.3" data-path="../renshi/3.html">
-            
-                <a href="../renshi/3.html">
-            
-                    
-                    真正轻松赚大钱的信息，没人会出来讲
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3" data-path="../shop/">
-            
-                <a href="../shop/">
-            
-                    
-                    流量电商
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.3.1" data-path="../shop/amazon-new-product.html">
-            
-                <a href="../shop/amazon-new-product.html">
-            
-                    
-                    亚马逊新品推爆-Lissa Tam
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.2" data-path="../shop/amazon-group.html">
-            
-                <a href="../shop/amazon-group.html">
-            
-                    
-                    亚马逊店群-路飞
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.3" data-path="../shop/taobao-group.html">
-            
-                <a href="../shop/taobao-group.html">
-            
-                    
-                    淘宝店群打法-佳境
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.4" data-path="../shop/taobao-car.html">
-            
-                <a href="../shop/taobao-car.html">
-            
-                    
-                    淘宝直通车爆款-七里香
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.5" data-path="../shop/taobao-car-ppc.html">
-            
-                <a href="../shop/taobao-car-ppc.html">
-            
-                    
-                    淘宝直通车降低PPC-七里香
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.6" data-path="../shop/res.html">
-            
-                <a href="../shop/res.html">
-            
-                    
-                    流量资源整合-百川
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.7" data-path="../shop/ad-bu-liang.html">
-            
-                <a href="../shop/ad-bu-liang.html">
-            
-                    
-                    广告补量业务与闲鱼信息差-百川
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.8" data-path="../shop/douyin.html">
-            
-                <a href="../shop/douyin.html">
-            
-                    
-                    抖音带货、知识变现-周可
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3.9" data-path="../shop/cod.html">
-            
-                <a href="../shop/cod.html">
-            
-                    
-                    Affiliate Marketing 经历和抖音躺过的坑-赖才坤
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4" data-path="./">
-            
-                <a href="./">
-            
-                    
-                    社群运营
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1" data-path="weixin.html">
-            
-                <a href="weixin.html">
-            
-                    
-                    微信细致运营100条-杨涛
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.2" data-path="zhihu.html">
-            
-                <a href="zhihu.html">
-            
-                    
-                    知乎细致运营150条-潇潇
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="1.4.3" data-path="media.html">
-            
-                <a href="media.html">
-            
-                    
-                    新媒体增长上的一些坑和经验-火火
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="../info/">
-            
-                <a href="../info/">
-            
-                    
-                    信息差变现
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1" data-path="../info/soft.html">
-            
-                <a href="../info/soft.html">
-            
-                    
-                    免费软件销售
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6" data-path="../prod/">
-            
-                <a href="../prod/">
-            
-                    
-                    创意产品/服务
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.6.1" data-path="../prod/lock.html">
-            
-                <a href="../prod/lock.html">
-            
-                    
-                    遥控智能锁
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7" data-path="../expr/">
-            
-                <a href="../expr/">
-            
-                    
-                    行业经验
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1" data-path="../expr/saler.html">
-            
-                <a href="../expr/saler.html">
-            
-                    
-                    销售的思维-夏俊一
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8" data-path="../douyin/">
-            
-                <a href="../douyin/">
-            
-                    
-                    抖音运营
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.1" data-path="../douyin/bianxian.html">
-            
-                <a href="../douyin/bianxian.html">
-            
-                    
-                    变现思路
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.2" data-path="../douyin/yanghao.html">
-            
-                <a href="../douyin/yanghao.html">
-            
-                    
-                    养号买号
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.3" data-path="../douyin/gongju.html">
-            
-                <a href="../douyin/gongju.html">
-            
-                    
-                    视频工具
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.4" data-path="../douyin/fabu.html">
-            
-                <a href="../douyin/fabu.html">
-            
-                    
-                    发布技巧
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.5" data-path="../douyin/yinliu.html">
-            
-                <a href="../douyin/yinliu.html">
-            
-                    
-                    抖音引流
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.6" data-path="../douyin/zhizuo.html">
-            
-                <a href="../douyin/zhizuo.html">
-            
-                    
-                    视频制作
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.6.1" data-path="../douyin/banyun.html">
-            
-                <a href="../douyin/banyun.html">
-            
-                    
-                    搬运法
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.6.2" data-path="../douyin/tuwen.html">
-            
-                <a href="../douyin/tuwen.html">
-            
-                    
-                    图文法
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.6.3" data-path="../douyin/luping.html">
-            
-                <a href="../douyin/luping.html">
-            
-                    
-                    录屏法
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7" data-path="../douyin/xuanti.html">
-            
-                <a href="../douyin/xuanti.html">
-            
-                    
-                    主题选取
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.7.1" data-path="../douyin/cremen.html">
-            
-                <a href="../douyin/cremen.html">
-            
-                    
-                    热门主题
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.2" data-path="../douyin/fanpai.html">
-            
-                <a href="../douyin/fanpai.html">
-            
-                    
-                    翻拍热门
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.3" data-path="../douyin/ctuwen.html">
-            
-                <a href="../douyin/ctuwen.html">
-            
-                    
-                    图文主题
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.4" data-path="../douyin/cpk.md">
-            
-                <span>
-            
-                    
-                    PK主题
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.5" data-path="../douyin/kaixiang.html">
-            
-                <a href="../douyin/kaixiang.html">
-            
-                    
-                    开箱展示
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.6" data-path="../douyin/ip.html">
-            
-                <a href="../douyin/ip.html">
-            
-                    
-                    个人IP
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.7.7" data-path="../douyin/xiangfa.html">
-            
-                <a href="../douyin/xiangfa.html">
-            
-                    
-                    随便想想
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9" data-path="../tools/">
-            
-                <a href="../tools/">
-            
-                    
-                    工具变现
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.lijiaocn.com" target="blank" class="gitbook-link">
-            www.lijiaocn.com 提供
-        </a>
-    </li>
-</ul>
-
-
-                </nav>
-                
-<br>
-<!--div style="text-align:center"-->
-<!-- Summary_Bottom -->
-<!--ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="2156601384"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div-->
-
-
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >新媒体增长上的一些坑和经验-火火</a>
-    </h1>
-</div>
-
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                
-<!-- Page_Top -->
-<!--div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="5702052586"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-<br>
-</div-->
-
-<div style="text-align:center">
-<!-- 小鸟笔记-375*90 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:375px;height:90px"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="4394865767"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<!-- 小鸟笔记-375*90-2 -->
-<ins class="adsbygoogle"
-     style="display:inline-block;width:375px;height:90px"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="7071988236"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
-
-                                <h1 id="&#x5173;&#x4E8E;&#x65B0;&#x5A92;&#x4F53;&#x589E;&#x957F;&#x4E0A;&#x7684;&#x4E00;&#x4E9B;&#x5751;&#x548C;&#x7ECF;&#x9A8C;">&#x5173;&#x4E8E;&#x65B0;&#x5A92;&#x4F53;&#x589E;&#x957F;&#x4E0A;&#x7684;&#x4E00;&#x4E9B;&#x5751;&#x548C;&#x7ECF;&#x9A8C;</h1>
-<p><strong>&#x6F47;&#x6F47;</strong> &#x5728;&#x77E5;&#x8BC6;&#x661F;&#x7403;&#x3010;<a href="../">&#x751F;&#x8D22;&#x6709;&#x672F;</a>&#x3011; &#x4E2D;&#x505A;&#x7684;&#x5206;&#x4EAB;&#xFF0C;&#x672C;&#x7AD9;&#x8FDB;&#x884C;&#x4E86;&#x7CBE;&#x6821;&#x548C;&#x9AD8;&#x4EAE;&#x5904;&#x7406;&#x3002;</p>
-<h2 id="&#x5F00;&#x7BC7;&#x8BED;">&#x5F00;&#x7BC7;&#x8BED;</h2>
-<p>&#x5173;&#x4E8E;&#x65B0;&#x5A92;&#x4F53;&#x589E;&#x957F;&#xFF0C;&#x661F;&#x7403;&#x91CC;&#x9762;&#x6709;&#x5F88;&#x591A;&#x5927;&#x4F6C;&#xFF0C;&#x4E5F;&#x5206;&#x4EAB;&#x4E86;&#x5F88;&#x591A;&#x7ECF;&#x9A8C;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x4E8E;&#x521A;&#x8FDB;&#x5165;&#x65B0;&#x5A92;&#x4F53;&#x589E;&#x957F;&#x7684;&#x5708;&#x53CB;&#xFF0C;&#x4F30;&#x8BA1;&#x8FD8;&#x662F;&#x8981;&#x6389;&#x4E0D;&#x5C11;&#x5751;&#xFF0C;&#x4ECA;&#x5929;&#x6211;&#x5C31;&#x9080;&#x8BF7;&#x4E86;&#x4E00;&#x4F4D;&#x5B9E;&#x6218;&#x7ECF;&#x9A8C;&#x4E30;&#x5BCC;&#x7684;&#x5708;&#x53CB;&#xFF0C;&#x6765;&#x7ED9;&#x5927;&#x5BB6;&#x804A;&#x804A;&#x65B0;&#x5A92;&#x4F53;&#x589E;&#x957F;&#x7684;&#x5751;&#x548C;&#x7ECF;&#x9A8C;&#x3002;</p>
-<p>&#x8BF7;&#x5927;&#x5BB6;&#x6B22;&#x8FCE;&#x9F99;&#x5171;&#x706B;&#x706B;@&#x9F99;&#x5171;&#x706B;&#x706B;-&#x300A;&#x9AD8;&#x9636;&#x8FD0;&#x8425;*  &#xFF01;</p>
-<h2 id="&#x6B63;&#x6587;">&#x6B63;&#x6587;</h2>
-<p>&#x5927;&#x5BB6;&#x597D;&#xFF0C;&#x6211;&#x662F;&#x706B;&#x706B;&#x3002;&#x611F;&#x8C22;&#x4EA6;&#x4EC1;&#x5927;&#x4F6C;&#x7684;&#x9080;&#x8BF7;&#xFF0C;&#x8FD9;&#x91CC;&#x597D;&#x591A;&#x5927;&#x795E;&#xFF0C;&#x5B66;&#x5230;&#x4E86;&#x5F88;&#x591A;&#x3002;&#x6211;&#x4ECA;&#x5929;&#x5206;&#x4EAB;&#x7684;&#x4E3B;&#x9898;&#x662F;&#x300A;&#x5173;&#x4E8E;&#x65B0;&#x5A92;&#x4F53;&#x589E;&#x957F;&#x4E0A;&#x7684;&#x4E00;&#x4E9B;&#x5751;&#x548C;&#x7ECF;&#x9A8C;&#x300B;&#x3002;</p>
-<p>&#x6211;&#x662F;&#x706B;&#x706B;&#xFF0C;14&#x5E74;&#x5F00;&#x59CB;&#x5165;&#x884C;&#xFF0C;&#x4E00;&#x76F4;&#x4ECE;&#x4E8B;&#x65B0;&#x5A92;&#x4F53;&#x8FD0;&#x8425;&#x65B9;&#x5411;&#xFF0C;&#x804C;&#x4E1A;&#x7ECF;&#x5386;&#x4E3B;&#x8981;&#x662F;&#x4E24;&#x5BB6;&#x516C;&#x53F8;&#x3002;</p>
-<p>&#x4E00;&#x5BB6;&#x662F;&#x7F8E;&#x4E3D;&#x8BF4;&#xFF0C;&#x4E00;&#x5F00;&#x59CB;&#x505A;&#x516C;&#x5173;&#x7684;&#x65B9;&#x5411;&#xFF0C;&#x4E2D;&#x95F4;&#x4E5F;&#x4E1A;&#x4F59;&#x505A;&#x4E86;&#x4E00;&#x65F6;&#x95F4;&#x6BB5;&#x81EA;&#x5A92;&#x4F53;&#x3002;&#x673A;&#x7F18;&#x5DE7;&#x5408;&#x4E0B;&#x8FD0;&#x8425;&#x4E86;&#x516C;&#x53F8;4000&#x4E07;&#x5DE6;&#x53F3;&#x7684;&#x65B0;&#x5A92;&#x4F53;&#x77E9;&#x9635;&#xFF0C;&#x53C2;&#x4E0E;&#x4E86;&#x5F53;&#x65F6;&#x7F8E;&#x4E3D;&#x8BF4;&#x51A0;&#x540D;&#x8DD1;&#x7537;&#x7B2C;&#x4E09;&#x5B63;&#x7684;&#x8425;&#x9500;&#x9879;&#x76EE;&#x3002;&#x540E;&#x6765;&#x5728;&#x7F8E;&#x4E3D;&#x8BF4;&#x88AB;&#x8611;&#x83C7;&#x8857;&#x5408;&#x5E76;&#x540E;&#x79BB;&#x5F00;&#xFF0C;&#x9634;&#x5DEE;&#x9633;&#x9519;&#x7684;&#x8FDB;&#x4E86;&#x6559;&#x80B2;&#x884C;&#x4E1A;&#x3002;&#x5165;&#x804C;&#x4E00;&#x5BB6;&#x53EB;&#x5B66;&#x9738;&#x541B;&#xFF0C;&#x4E4B;&#x524D;&#x505A;&#x62CD;&#x7167;&#x641C;&#x9898;&#xFF0C;&#x540E;&#x6765;&#x8F6C;&#x578B;&#x505A;&#x5728;&#x7EBF;1&#x5BF9;1&#x9879;&#x76EE;&#xFF0C;&#x4ECE;0&#x5F00;&#x59CB;&#x505A;&#x65B0;&#x5A92;&#x4F53;&#x6765;&#x83B7;&#x53D6;&#x5BB6;&#x957F;&#xFF0C;&#x505A;&#x4E86;&#x5343;&#x4E07;&#x7684;&#x77E9;&#x9635;&#xFF0C;&#x4EE5;&#x53CA;&#x540E;&#x6765;&#x505A;&#x4E86;&#x516C;&#x4F17;&#x53F7;&#x6295;&#x653E;&#x8FD9;&#x5757;&#xFF0C;&#x7D2F;&#x8BA1;&#x8425;&#x6536;&#x4E0A;&#x4EBF;&#x3002;</p>
-<p>&#x5E73;&#x5E38;&#x4E00;&#x76F4;&#x6BD4;&#x8F83;&#x559C;&#x6B22;&#x73A9;&#x65B0;&#x5A92;&#x4F53;&#xFF0C;&#x53BB;&#x5E74;&#x51FA;&#x4E86;&#x4E00;&#x672C;&#x4E66;&#x300A;&#x9AD8;&#x9636;&#x8FD0;&#x8425;&#x300B;&#x3002;&#x4ECA;&#x5E74;3&#x6708;&#x4EFD;&#x81EA;&#x5DF1;&#x51FA;&#x6765;&#x4E86;&#xFF0C;&#x76EE;&#x524D;&#x662F;&#x4E00;&#x4E2A;&#x521B;&#x4E1A;&#x83DC;&#x9E1F;&#xFF0C;&#x6B63;&#x5728;&#x6478;&#x7D22;&#x5173;&#x4E8E;&#x6D41;&#x91CF;&#x7684;&#x65B0;&#x73A9;&#x6CD5;&#x4EE5;&#x53CA;&#x5728;&#x505A;&#x76F8;&#x5173;&#x4EA7;&#x54C1;&#xFF0C;&#x8DDF;&#x5927;&#x4F6C;&#x4EEC;&#x591A;&#x5B66;&#x4E60;&#x3002;</p>
-<p>&#x597D;&#x7684;&#x8BF4;&#x56DE;&#x6B63;&#x9898;&#xFF0C;&#x96F6;&#x788E;&#x7684;&#x804A;&#x4E00;&#x4E0B;&#x8FD9;&#x51E0;&#x5E74;&#x81EA;&#x5DF1;&#x505A;&#x65B0;&#x5A92;&#x4F53;&#x589E;&#x957F;&#x8E29;&#x8FC7;&#x7684;&#x51E0;&#x4E2A;&#x5751;&#x548C;&#x7ECF;&#x9A8C;&#xFF1A;</p>
-<h3 id="1&#x3001;&#x5BF9;&#x589E;&#x957F;&#x7684;&#x8BA4;&#x77E5;">1&#x3001;&#x5BF9;&#x589E;&#x957F;&#x7684;&#x8BA4;&#x77E5;</h3>
-<p>&#x5728;&#x7535;&#x5546;&#x516C;&#x53F8;&#x65F6;&#x6211;&#x4EEC;&#x5728;&#x516C;&#x5173;&#x90E8;&#xFF0C;&#x66F4;&#x591A;&#x7684;&#x5173;&#x6CE8;&#x4F20;&#x64AD;&#x5BFC;&#x5411;&#x7684;&#x6570;&#x636E;&#x3002;&#x6BD4;&#x5982;&#x505A;&#x4E00;&#x4E2A;&#x4E8B;&#x4EF6;&#x6216;&#x8005;&#x54C1;&#x724C;&#x4F20;&#x64AD;&#xFF0C;&#x7ED3;&#x6848;&#x62A5;&#x544A;&#x4E0A;&#x4E3B;&#x8981;&#x5199;&#x5F71;&#x54CD;&#x5230;&#x591A;&#x5C11;&#x4EBA;&#xFF0C;&#x4EE5;&#x53CA;&#x6709;&#x54EA;&#x4E9B;kol&#x62A5;&#x9053;&#x3002;&#x8FDB;&#x7AD9;uv&#x53CD;&#x800C;&#x662F;&#x4E00;&#x4E2A;&#x6B21;&#x7684;&#x8003;&#x6838;&#x6307;&#x6807;&#x3002;</p>
-<p>16&#x5E74;&#x5230;&#x4E86;&#x6559;&#x80B2;&#x516C;&#x53F8;&#x505A;&#x5BB6;&#x957F;&#x7C7B;&#x4E1A;&#x52A1;&#x65F6;&#xFF0C;&#x5BF9;&#x6211;&#x6709;&#x4E00;&#x4E2A;&#x5DE8;&#x5927;&#x7684;&#x51B2;&#x51FB;&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4EA7;&#x51FA;&#x9500;&#x552E;&#x7EBF;&#x7D22;&#xFF0C;&#x8BA9;cc&#x6210;&#x5355;&#xFF0C;&#x76F4;&#x63A5;&#x603C;&#x4E1A;&#x7EE9;&#x548C;&#x6210;&#x5355;&#x8D1F;&#x8D23;&#xFF0C;&#x8FD9;&#x65F6;&#x5019;&#x624D;&#x5F00;&#x59CB;&#x75AF;&#x72C2;&#x7684;&#x6076;&#x8865;&#x6570;&#x636E;&#xFF0C;&#x4EA7;&#x54C1;&#x7684;&#x4FE1;&#x606F;&#x3002;</p>
-<p>&#x8FD9;&#x51E0;&#x5E74;&#x53D1;&#x73B0;&#xFF0C;&#x589E;&#x957F;&#x4E00;&#x5B9A;&#x662F;&#x7ED9;&#x4F01;&#x4E1A;&#x521B;&#x9020;&#x8425;&#x6536;&#xFF0C;&#x4EFB;&#x4F55;&#x90FD;&#x9700;&#x8981;&#x53BB;&#x8861;&#x91CF;ROI&#xFF0C;&#x65E0;&#x8BBA;&#x662F;&#x77ED;&#x671F;&#x8FD8;&#x662F;&#x957F;&#x671F;&#x3002;</p>
-<p>1&#xFF09;&#x5BF9;&#x65B0;&#x5A92;&#x4F53;&#x7684;&#x7406;&#x89E3;</p>
-<p>&#x65B0;&#x5A92;&#x4F53;&#x53D1;&#x5C55;&#x4E86;&#x51E0;&#x5E74;&#xFF0C;&#x5176;&#x5B9E;&#x5DF2;&#x7ECF;&#x8D85;&#x51FA;&#x4E86;&#x6211;&#x4EEC;&#x5F88;&#x591A;&#x7684;&#x8BA4;&#x77E5;&#xFF0C;&#x5305;&#x62EC;&#x6700;&#x65E9;&#x6211;&#x4EEC;14&#x5E74;&#x5165;&#x884C;&#x65F6;&#x90FD;&#x53EB;&#x5C0F;&#x7F16;&#xFF0C;&#x540E;&#x6765;&#x65B0;&#x5A92;&#x4F53;&#x53D8;&#x6210;&#x4E86;&#x6295;&#x653E;&#x7684;&#x6E20;&#x9053;&#xFF0C;&#x518D;&#x5230;18&#x5E74;&#x65F6;&#x66F4;&#x591A;&#x4EBA;&#x628A;&#x65B0;&#x5A92;&#x4F53;&#x4F5C;&#x4E3A;&#x5E73;&#x53F0;&#xFF0C;&#x53EF;&#x4EE5;&#x627F;&#x8F7D;&#x516C;&#x53F8;&#x7684;&#x6574;&#x4F53;&#x4E1A;&#x52A1;&#x3002;&#xFF08;&#x56FE;1&#xFF09;</p>
-<p>&#x5728;&#x8FD9;&#x91CC;&#x9762;&#x9700;&#x8981;&#x8BF4;&#x660E;&#x7684;&#x662F;&#xFF0C;&#x4F20;&#x7EDF;&#x884C;&#x4E1A;&#x5176;&#x5B9E;&#x8FD8;&#x6CA1;&#x8FDB;&#x5316;&#x7684;&#x90A3;&#x4E48;&#x5FEB;&#xFF0C;&#x66F4;&#x591A;&#x5411;1.0-2.0&#x8FDB;&#x5316;&#xFF0C;&#x4E2D;&#x95F4;&#x5B58;&#x5728;&#x5DE8;&#x5927;&#x7684;&#x8BA4;&#x77E5;&#x9E3F;&#x6C9F;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4FE1;&#x606F;&#x5DEE;&#x7684;&#x673A;&#x4F1A;&#x3002;&#x4E0D;&#x8FC7;&#x73B0;&#x5728;&#x5F88;&#x591A;&#x5E97;&#x6B63;&#x5728;&#x53CD;&#x5E94;&#x8FC7;&#x6765;&#xFF0C;&#x6BD4;&#x5982;&#x540C;&#x6837;&#x505A;&#x4E00;&#x4E2A;&#x793E;&#x7FA4;&#x88C2;&#x53D8;&#x5728;&#x7EBF;&#x4E0A;&#x505A;&#x4E0D;&#x8D77;&#x6765;&#xFF0C;&#x4F46;&#x662F;&#x7EBF;&#x4E0B;&#x7684;&#x6559;&#x57F9;&#x673A;&#x6784;&#x53BB;&#x53EF;&#x4EE5;&#x73A9;&#x7684;&#x98CE;&#x751F;&#x6C34;&#x8D77;&#x3002;</p>
-<p>2&#xFF09;&#x5BF9;&#x5E73;&#x53F0;&#x7684;&#x7406;&#x89E3;</p>
-<p>&#x589E;&#x957F;&#x57FA;&#x4E8E;&#x4EC0;&#x4E48;&#x5E73;&#x53F0;&#x4E5F;&#x662F;&#x51B3;&#x5B9A;&#x6027;&#x7684;&#xFF0C;&#x6BD4;&#x5982;&#x4F60;&#x524D;&#x4E24;&#x5E74;&#x628A;&#x7CBE;&#x529B;&#x82B1;&#x5728;&#x5C0F;&#x5496;&#x79C0;&#x80AF;&#x5B9A;&#x5C31;&#x5E9F;&#x4E86;&#xFF0C;&#x82B1;&#x5728;&#x6296;&#x97F3;&#x4E0A;&#x5C31;&#x53EF;&#x80FD;&#x8D77;&#x6765;&#x3002;&#x8FD9;&#x53D6;&#x51B3;&#x4E8E;&#x5BF9;&#x5E73;&#x53F0;&#x672C;&#x8EAB;&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x9700;&#x8981;&#x5546;&#x4E1A;&#x7684;&#x5224;&#x65AD;&#xFF0C;&#x4E5F;&#x9700;&#x8981;&#x8FD0;&#x6C14;&#x3002;&#x4E4B;&#x524D;&#x6211;&#x4E5F;&#x5728;&#x4E66;&#x4E2D;&#x63D0;&#x51FA;&#x8FC7;&#x79EF;&#x6728;&#x903B;&#x8F91;&#x7684;&#x8BBE;&#x60F3;&#x3002;</p>
-<p>&#x4E3E;&#x4E2A;&#x53CD;&#x4F8B;&#xFF0C;&#x6211;&#x4EEC;&#x4E4B;&#x524D;16&#x5E74;&#x5E95;&#x7684;&#x65F6;&#x5019;&#x770B;&#x5230;&#x4E2A;&#x4EBA;&#x53F7;&#x7684;&#x673A;&#x4F1A;&#xFF0C;2&#x4E2A;&#x4EBA;&#x5F88;&#x5FEB;2&#x4E2A;&#x6708;&#x505A;&#x4E86;10&#x4E07;&#x7684;&#x4E2A;&#x4EBA;&#x53F7;&#x7C89;&#x4E1D;&#xFF0C;&#x540E;&#x6765;&#x53F7;&#x592A;&#x591A;&#x4E86;&#x7EF4;&#x62A4;&#x4E0D;&#x8FC7;&#x6765;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x91C7;&#x7528;&#x4E86;&#x7FA4;&#x63A7;&#x3002;17&#x5E74;3&#x6708;&#x6B63;&#x597D;&#x5F15;&#x6765;&#x4E00;&#x6CE2;&#x6253;&#x51FB;&#xFF0C;&#x5F53;&#x65F6;&#x88AB;&#x73A9;&#x7684;&#x4E07;&#x5FF5;&#x4FF1;&#x7070;&#xFF0C;&#x5C31;&#x6CA1;&#x6709;&#x7EE7;&#x7EED;&#x505A;&#x4E2A;&#x4EBA;&#x53F7;&#x975E;&#x5E38;&#x9057;&#x61BE;&#x3002;&#x6838;&#x5FC3;&#x662F;&#x80CC;&#x540E;&#x6211;&#x4EEC;&#x7684;&#x8BA4;&#x77E5;&#x95EE;&#x9898;&#xFF0C;&#x5F53;&#x65F6;&#x5BF9;&#x4E2A;&#x4EBA;&#x53F7;&#x7684;&#x5224;&#x8BFB;&#x51FA;&#x73B0;&#x4E86;&#x5931;&#x8BEF;&#x3002;</p>
-<p>&#x5F53;&#x7136;&#x5E73;&#x53F0;&#x7684;&#x9009;&#x62E9;&#x4E5F;&#x4E0D;&#x662F;&#x4E00;&#x5B9A;&#x7684;&#xFF0C;&#x8981;&#x5339;&#x914D;&#x81EA;&#x8EAB;&#x7684;&#x4E1A;&#x52A1;&#x8BC9;&#x6C42;&#x3002;&#x5C31;&#x50CF;&#x53BB;&#x5E74;&#x5F88;&#x591A;&#x505A;&#x77ED;&#x89C6;&#x9891;&#x7684;&#x670B;&#x53CB;&#xFF0C;&#x9762;&#x4E34;&#x505A;&#x54EA;&#x4E2A;&#x5E73;&#x53F0;&#x7684;&#x9009;&#x62E9;&#xFF0C;&#x6709;&#x7684;&#x9009;&#x4E86;&#x5FAE;&#x89C6;&#xFF0C;&#x6709;&#x7684;&#x9009;&#x4E86;&#x6296;&#x97F3;&#xFF0C;&#x6709;&#x7684;&#x9009;&#x4E86;&#x5FEB;&#x624B;&#x3002;&#x4ECA;&#x5E74;&#x7ED3;&#x5C40;&#x622A;&#x7136;&#x4E0D;&#x540C;&#xFF0C;&#x3001;&#x5F88;&#x591A;&#x6296;&#x97F3;&#x7684;&#x60E8;&#x6DE1;&#x9000;&#x573A;&#xFF0C;&#x6CA1;&#x6709;&#x7B49;&#x5230;&#x5F00;&#x8D2D;&#x7269;&#x8F66;&#x7684;&#x7EA2;&#x5229;&#x7684;&#x5F00;&#x542F;&#x3002;&#x6709;&#x4E9B;&#x53F7;&#x505A;&#x5FEB;&#x624B;&#x7C89;&#x4E1D;&#x5F88;&#x5C11;&#xFF0C;&#x4ECA;&#x5E74;&#x9760;&#x76F4;&#x64AD;&#x5C31;&#x5F88;&#x8D5A;&#x94B1;&#x3002;</p>
-<h3 id="2&#x589E;&#x957F;&#x65B0;&#x65B9;&#x5F0F;&#x7684;&#x5BFB;&#x627E;">2.&#x589E;&#x957F;&#x65B0;&#x65B9;&#x5F0F;&#x7684;&#x5BFB;&#x627E;</h3>
-<p>&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x53BB;&#x5BFB;&#x627E;&#x589E;&#x957F;&#x65B9;&#x6CD5;&#xFF0C;&#x7B54;&#x6848;&#x662F;&#x65E0;&#x65F6;&#x4E0D;&#x523B;&#xFF0C;&#x4F46;&#x6BCF;&#x4E2A;&#x65F6;&#x671F;&#x91CD;&#x70B9;&#x4E5F;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x8FD9;&#x91CC;&#x7279;&#x522B;&#x8BF4;&#x7684;&#x662F;&#xFF0C;&#x5BFB;&#x627E;&#x589E;&#x957F;&#x65B9;&#x6CD5;&#x9664;&#x4E86;&#x51B7;&#x542F;&#x52A8;&#x5916;&#xFF0C;&#x6700;&#x597D;&#x662F;&#x5728;&#x81EA;&#x5DF1;&#x4E1A;&#x52A1;&#x5C5E;&#x4E8E;&#x4E0A;&#x5347;&#x6216;&#x8005;&#x7A33;&#x56FA;&#x671F;&#xFF0C;&#x590D;&#x5408;&#x589E;&#x957F;&#x7387;&#x5E73;&#x7A33;&#x65F6;&#x5019;&#x5F00;&#x59CB;&#x3002;&#x5343;&#x4E07;&#x4E0D;&#x8981;&#x7B49;&#x5230;&#x589E;&#x957F;&#x4E0B;&#x6ED1;&#x518D;&#x53BB;&#x627E;&#xFF0C;&#x56E0;&#x4E3A;&#x90A3;&#x4F1A;&#x5F88;&#x5BB9;&#x6613;&#x5FC3;&#x8FF7;&#x610F;&#x4E71;&#xFF0C;&#x75C5;&#x6025;&#x4E71;&#x6295;&#x533B;&#x3002;
-&#x90A3;&#x589E;&#x957F;&#x65B9;&#x6CD5;&#x4ECE;&#x54EA;&#x91CC;&#x627E;&#xFF0C;&#x9664;&#x4E86;&#x5E38;&#x89C4;&#x7684;&#x4FE1;&#x606F;&#x6E20;&#x9053;&#xFF0C;&#x8FD8;&#x6709;&#x51E0;&#x4E2A;&#x91CD;&#x70B9;&#xFF1A;</p>
-<p>1)&#x5B66;&#x4F1A;&#x8FC1;&#x79FB;</p>
-<p>&#x5F88;&#x591A;&#x589E;&#x957F;&#x65B9;&#x6CD5;&#x5176;&#x5B9E;&#x90FD;&#x4F1A;&#x8FC1;&#x79FB;&#xFF0C;&#x8FD9;&#x91CC;&#x9762;&#x6709;&#x4E2A;&#x201C;&#x65F6;&#x95F4;&#x673A;&#x5668;&#x201C;&#x7684;&#x6982;&#x5FF5;&#xFF0C;&#x5F88;&#x591A;&#x7070;&#x4EA7;&#x5305;&#x62EC;&#x9ED1;&#x4EA7;&#x7684;&#x73A9;&#x6CD5;&#xFF0C;&#x5176;&#x5B9E;&#x53EF;&#x4EE5;&#x62FF;&#x8FC7;&#x6765;&#x5728;&#x4EE5;&#x6539;&#x9020;&#x5728;&#x81EA;&#x5DF1;&#x7684;&#x884C;&#x4E1A;&#x5E94;&#x7528;&#x3002;&#x83DC;&#x5200;&#x80FD;&#x4F24;&#x4EBA;&#xFF0C;&#x4E5F;&#x80FD;&#x505A;&#x83DC;&#x3002;</p>
-<p>&#x6BD4;&#x5982;&#x8BF1;&#x5BFC;&#x9632;&#x5C01;&#x6362;&#x94FE;&#x7684;&#x6280;&#x672F;&#x7B49;&#x90FD;&#x662F;&#x7070;&#x4EA7;&#x6765;&#x7684;&#xFF0C;&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#x6211;&#x4EEC;&#x5728;17&#x5E74;&#x5BFB;&#x627E;&#x65B9;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8BD5;&#x4E86;&#x793E;&#x7FA4;&#x88C2;&#x53D8;&#xFF0C;h5&#x88C2;&#x53D8;&#xFF0C;&#x4EFB;&#x52A1;&#x5B9D;&#x7B49;&#x65B9;&#x6CD5;&#xFF0C;&#x4F46;&#x662F;&#x90FD;&#x6CA1;&#x73A9;&#x901A;&#x3002;</p>
-<p>&#x540E;&#x6765;&#x5076;&#x7136;&#x95F4;&#xFF0C;&#x6211;&#x4EEC;&#x5728;17&#x5E74;&#x7684;9&#x6708;&#x53D1;&#x73B0;&#x6709;&#x4E00;&#x4E9B;&#x7070;&#x4EA7;&#x5728;&#x7528;&#x4EFB;&#x52A1;&#x5B9D;&#xFF0C;&#x9001;&#x745C;&#x4F3D;&#x57AB;&#x6DA8;&#x7C89;&#x4F46;&#x662F;&#x4E0D;&#x53D1;&#x8D27;&#x3002;&#x5F53;&#x65F6;&#x6211;&#x4EEC;&#x6559;&#x80B2;&#x884C;&#x4E1A;&#x5927;&#x591A;&#x6570;&#x9001;&#x7684;&#x90FD;&#x662F;&#x514D;&#x8D39;&#x7535;&#x5B50;&#x8D44;&#x6599;&#xFF0C;&#x4F46;&#x6548;&#x679C;&#x5F88;&#x5DEE;&#x3002;&#x4E8E;&#x662F;&#x6211;&#x4EEC;&#x8BD5;&#x4E86;&#x4E0B;&#x7EB8;&#x8D28;&#x7248;&#x7684;&#x8D44;&#x6599;&#xFF0C;10&#x6708;&#x4EFD;&#x6211;&#x4EEC;&#x9001;&#x4E86;&#x5185;&#x90E8;&#x7684;&#x8D44;&#x6599;&#xFF0C;&#x5F53;&#x65F6;&#x8FD8;&#x5728;&#x8FC7;&#x5341;&#x4E00;&#xFF0C;&#x5355;&#x4E2A;&#x8D26;&#x53F7;&#x4E00;&#x5929;&#x589E;&#x957F;&#x4E86;6&#x4E07;&#x3002;</p>
-<p>&#x540E;&#x6765;&#x628A;&#x8FD9;&#x4E2A;&#x544A;&#x8BC9;&#x4E86;&#x4E00;&#x4E2A;&#x670B;&#x53CB;&#xFF0C;&#x4ED6;18&#x5E74;&#x6DA8;&#x7C89;&#x51E0;&#x767E;&#x4E07;&#xFF0C;&#x8D5A;&#x4E86;&#x4E03;&#x4F4D;&#x6570;&#x3002;</p>
-<p>2)&#x638C;&#x63E1;&#x5230;&#x4E00;&#x624B;&#x4FE1;&#x606F;</p>
-<p>&#x4E00;&#x624B;&#x4FE1;&#x606F;&#x7279;&#x522B;&#x91CD;&#x8981;&#xFF0C;&#x60F3;&#x8981;&#x83B7;&#x53D6;&#x4FE1;&#x606F;&#xFF0C;&#x6700;&#x597D;&#x7684;&#x662F;&#x8BA9;&#x81EA;&#x5DF1;&#x6210;&#x4E3A;&#x4FE1;&#x606F;&#x6E90;&#xFF0C;&#x4EA6;&#x4EC1;&#x8001;&#x677F;&#x7684;&#x7FA4;&#x91CC;&#x6709;&#x5F88;&#x591A;&#x975E;&#x5E38;&#x6709;&#x4EF7;&#x503C;&#x7684;&#x4E00;&#x624B;&#x4FE1;&#x606F;&#x3002;</p>
-<p>&#x5F53;&#x7136;&#x4E00;&#x822C;&#x6765;&#x8BF4;&#x7279;&#x522B;&#x6709;&#x4EF7;&#x503C;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x5F88;&#x5C11;&#x4F1A;&#x5728;&#x516C;&#x5F00;&#x573A;&#x5408;&#x8BF4;&#xFF0C;&#x66F4;&#x5E38;&#x89C1;&#x7684;&#x662F;&#x7EBF;&#x4E0B;&#x6216;&#x8005;&#x662F;&#x6781;&#x5C0F;&#x7684;&#x5708;&#x5B50;&#x5927;&#x5BB6;&#x76F8;&#x4E92;&#x8BF4;&#x3002;&#x90A3;&#x6211;&#x4EEC;&#x4E3A;&#x4EC0;&#x4E48;&#x8FD8;&#x8981;&#x53C2;&#x52A0;&#x5927;&#x5708;&#x5B50;&#x7684;&#x8BA8;&#x8BBA;&#xFF0C;&#x6838;&#x5FC3;&#x5176;&#x5B9E;&#x662F;&#x627E;&#x5230;&#x4F60;&#x201C;&#x60C5;&#x6295;&#x610F;&#x5408;&#x201C;&#x7684;&#x4EBA;&#xFF0C;&#x79C1;&#x5E95;&#x4E0B;&#x518D;&#x53BB;&#x4EA4;&#x6D41;&#xFF0C;&#x6BD4;&#x5982;&#x4E0A;&#x6B21;&#x4EA6;&#x4EFB;&#x7684;&#x676D;&#x5DDE;&#x89C1;&#x9762;&#x4F1A;&#xFF0C;&#x6211;&#x4EEC;&#x79C1;&#x5E95;&#x4E0B;&#x8BA4;&#x8BC6;&#x4E86;&#x51E0;&#x4E2A;&#x975E;&#x5E38;&#x597D;&#x7684;&#x6D41;&#x91CF;&#x5708;&#x670B;&#x53CB;&#x3002;</p>
-<p>3)&#x7B5B;&#x6389;&#x65E0;&#x6548;&#x4FE1;&#x606F;</p>
-<p>&#x66F4;&#x591A;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x4EEC;&#x5176;&#x5B9E;&#x638C;&#x63E1;&#x4E86;&#x5F88;&#x591A;&#x65B9;&#x6CD5;&#xFF0C;&#x4F46;&#x4E0D;&#x53EF;&#x80FD;&#x5168;&#x90E8;&#x90FD;&#x505A;&#xFF0C;&#x600E;&#x4E48;&#x53BB;&#x8FA8;&#x522B;&#x548C;&#x5229;&#x7528;&#x5462;&#xFF0C;&#x53EF;&#x4EE5;&#x505A;&#x4E00;&#x4E2A;&#x6E20;&#x9053;&#x89C4;&#x5212;&#x8868;&#xFF0C;&#x4ECE;&#x83B7;&#x5BA2;&#x6210;&#x672C;&#xFF0C;&#x7C89;&#x4E1D;&#x8D28;&#x91CF;&#xFF0C;&#x589E;&#x957F;&#x53EF;&#x63A7;&#x7A0B;&#x5EA6;&#xFF0C;&#x56E2;&#x961F;&#x6295;&#x5165;&#xFF0C;&#x6E20;&#x9053;&#x653E;&#x91CF;&#xFF0C;&#x4EA7;&#x51FA;&#x9A8C;&#x8BC1;&#x65F6;&#x95F4;&#x7B49;&#xFF0C;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x6253;&#x5206;&#x3002;&#x4EE5;&#x540E;&#x5907;&#x7740;&#x8FD9;&#x4E2A;&#x8868;&#xFF0C;&#x6BD4;&#x5982;&#x6709;&#x65F6;&#x5019;&#x9700;&#x8981;&#x6269;&#x5927;&#x91CF;&#xFF0C;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x5E7F;&#x70B9;&#x901A;&#x3002;&#xFF08;&#x56FE;2&#xFF09;</p>
-<p>&#x5BF9;&#x4E8E;&#x4F01;&#x4E1A;&#x6765;&#x8BF4;&#xFF0C;&#x4E00;&#x822C;&#x589E;&#x957F;&#x624B;&#x6BB5;&#x4F1A;&#x670D;&#x4ECE;721&#x7684;&#x539F;&#x5219;&#xFF0C;&#x5373;7&#x6210;&#x662F;&#x73B0;&#x6709;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;2&#x6210;&#x662F;&#x65B0;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;1&#x6210;&#x662F;&#x6709;&#x6F5C;&#x529B;&#x53BB;&#x8BD5;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4E4B;&#x540E;&#x76F8;&#x4E92;&#x7684;&#x5207;&#x6362;&#x91D1;&#x94F6;&#x6C34;&#x7BA1;&#x3002;</p>
-<h3 id="3&#x589E;&#x957F;&#x7684;&#x6267;&#x884C;">3.&#x589E;&#x957F;&#x7684;&#x6267;&#x884C;</h3>
-<p>&#x589E;&#x957F;&#x5176;&#x5B9E;&#x5F88;&#x591A;&#x65B9;&#x6CD5;&#x5927;&#x5BB6;&#x90FD;&#x77E5;&#x9053;&#xFF0C;&#x4F46;&#x662F;&#x540C;&#x6837;&#x505A;&#x4E00;&#x4EF6;&#x4E8B;&#xFF0C;&#x505A;&#x51FA;&#x7684;&#x6548;&#x679C;&#x622A;&#x7136;&#x4E0D;&#x540C;&#x3002;
-&#x62FF;&#x88C2;&#x53D8;&#x6765;&#x8BF4;&#xFF0C;k&#xFF08;&#x88C2;&#x53D8;&#x7CFB;&#x6570;&#xFF1A;&#x6BCF;&#x4E2A;&#x53C2;&#x4E0E;&#x7684;&#x4EBA;&#x80FD;&#x591F;&#x62C9;&#x65B0;&#x7684;&#x4EBA;&#x6570;&#xFF09;&#x5DEE;0.1&#xFF0C;&#x6548;&#x679C;&#x5DEE;&#x597D;&#x51E0;&#x500D;&#x3002;&#x8FD9;&#x91CC;&#x9762;&#x6709;&#x5927;&#x91CF;&#x7684;&#x7EC6;&#x8282;&#x548C;&#x8BA4;&#x77E5;&#xFF0C;&#x62FF;&#x4EFB;&#x52A1;&#x5B9D;&#x7684;&#x51E0;&#x4E2A;&#x7EC6;&#x8282;&#x6765;&#x8BF4;&#xFF1A;</p>
-<p>1&#xFF09;&#x5173;&#x4E8E;&#x5FEB;&#x9012;&#x67E5;&#x8BE2;</p>
-<p>&#x56E0;&#x4E3A;&#x4EFB;&#x52A1;&#x5B9D;&#x7684;&#x6838;&#x5FC3;&#x6D88;&#x8017;&#x7528;&#x6237;&#x7684;&#x670B;&#x53CB;&#x5708;&#xFF0C;&#x65E2;&#x8BA9;&#x8D8A;&#x6765;&#x8D8A;&#x591A;&#x7684;&#x4EBA;&#x53C2;&#x4E0E;&#x8FDB;&#x6765;&#x3002;&#x6240;&#x4EE5;&#x5728;&#x7528;&#x6237;&#x5B8C;&#x6210;&#x4EFB;&#x52A1;&#x540E;&#xFF0C;&#x5982;&#x679C;&#x9001;&#x5B9E;&#x4F53;&#x7269;&#x54C1;&#xFF0C;&#x52A1;&#x5FC5;&#x8BA9;&#x5FEB;&#x9012;&#x5FEB;&#x70B9;&#x53D1;&#x51FA;&#x53BB;&#x3002;&#x521A;&#x5F00;&#x59CB;&#x6211;&#x4EEC;&#x8BBE;&#x5B9A;&#x4E86;&#x6D3B;&#x52A8;&#x7684;&#x671F;&#x9650;&#xFF0C;&#x6BD4;&#x5982;&#x4E00;&#x4E2A;&#x793C;&#x62DC;&#x8DD1;&#x4E00;&#x6B21;&#xFF0C;&#x518D;&#x53BB;&#x53BB;&#x53D1;&#x8D27;&#x3002;</p>
-<p>&#x4F46;&#x662F;&#x4F1A;&#x53D1;&#x73B0;&#x4E24;&#x4E2A;&#x70B9;&#xFF0C;&#x7B2C;&#x4E00;&#x8FD9;&#x6279;&#x6CA1;&#x6709;&#x6536;&#x5230;&#x8D27;&#x7684;&#x7528;&#x6237;&#x57FA;&#x672C;&#x4E0A;&#x4E0D;&#x4F1A;&#x518D;&#x53BB;&#x53C2;&#x52A0;&#x6D3B;&#x52A8;&#x3002;&#x7B2C;&#x4E8C;&#x662F;&#x5FEB;&#x9012;&#x66F4;&#x65B0;&#x4E0D;&#x53CA;&#x65F6;&#xFF0C;&#x7528;&#x6237;&#x4E0D;&#x77E5;&#x9053;&#x5FEB;&#x9012;&#x5230;&#x54EA;&#x91CC;&#xFF0C;&#x5BB9;&#x6613;&#x5F15;&#x53D1;&#x4E3E;&#x62A5;&#x3002;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x8C03;&#x6574;&#x4E86;&#x4E0B;&#xFF0C;</p>
-<p>&#x4E3B;&#x8981;&#x5206;&#x4E3A;&#x4E24;&#x6B65;&#xFF1A;&#x5BF9;&#x5185;&#x4FDD;&#x8BC1;1-2&#x5929;&#x53D1;&#x8D27;&#x4E00;&#x6B21;&#x7684;&#x8282;&#x594F;&#x3002;&#x5BF9;&#x5916;&#x505A;&#x4E86;&#x4E00;&#x5957;&#x7528;&#x6237;&#x7684;&#x67E5;&#x8BE2;&#x7CFB;&#x7EDF;&#xFF0C;&#x8BA9;&#x7528;&#x6237;&#x8F93;&#x624B;&#x673A;&#x53F7;&#x67E5;&#x8BE2;&#xFF0C;&#x5E76;&#x4E14;&#x53EF;&#x4EE5;&#x540C;&#x6B65;&#x5FEB;&#x9012;&#x4FE1;&#x606F;&#x3002;&#x8FD9;&#x91CC;&#x9762;&#x505A;&#x4E86;&#x4E00;&#x4E2A;&#x5C0F;&#x521B;&#x65B0;&#xFF0C;&#x56E0;&#x4E3A;&#x65E9;&#x671F;&#x5927;&#x5BB6;&#x5F88;&#x591A;&#x7528;&#x77F3;&#x58A8;&#x6587;&#x6863;&#x5217;&#x51FA;&#x6240;&#x6709;&#x7684;&#x7528;&#x6237;&#xFF0C;&#x5BF9;&#x4E8E;&#x7528;&#x6237;&#x6765;&#x8BF4;&#x5F88;&#x9EBB;&#x70E6;&#xFF0C;&#x8FD8;&#x5F97;&#x624B;&#x52A8;&#x627E;&#x5FEB;&#x9012;&#x5355;&#x67E5;&#x72B6;&#x6001;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x8FD9;&#x4E5F;&#x90E8;&#x5206;&#x4FB5;&#x72AF;&#x4E86;&#x4ED6;&#x4EEC;&#x7684;&#x9690;&#x79C1;&#x3002;&#xFF08;&#x56FE;3&#xFF09;</p>
-<p>2&#xFF09;&#x5173;&#x4E8E;&#x591A;&#x6B21;&#x5229;&#x7528;kol</p>
-<p>&#x5728;&#x8DD1;&#x6D3B;&#x52A8;&#x7684;&#x65F6;&#x5019;&#x62C9;&#x6570;&#x636E;&#x53D1;&#x73B0;&#xFF0C;&#x6709;&#x4E9B;&#x4EBA;&#x80FD;&#x591F;&#x62C9;&#x5F88;&#x591A;&#x4EBA;&#xFF0C;&#x6211;&#x4EEC;&#x8BA9;&#x6280;&#x672F;&#x8DD1;&#x51FA;&#x6765;&#x540E;&#xFF0C;&#x505A;&#x4E86;&#x4E24;&#x4E2A;&#x52A8;&#x4F5C;&#x3002;&#x4E00;&#x4E2A;&#x662F;&#x5355;&#x72EC;&#x8054;&#x7CFB;&#x4ED6;&#x4EEC;&#xFF0C;&#x62C9;&#x5165;kol&#x7FA4;&#xFF0C;&#x56E0;&#x4E3A;&#x4ED6;&#x4EEC;&#x7684;&#x5F71;&#x54CD;&#x529B;&#x5927;&#xFF0C;&#x540E;&#x7EED;&#x6709;&#x4E9B;&#x5C0F;&#x8303;&#x56F4;&#x6D3B;&#x52A8;&#x7684;&#x5F15;&#x7206;&#x53EF;&#x4EE5;&#x9760;&#x4ED6;&#x4EEC;&#x3002;&#x7B2C;&#x4E8C;&#x4E2A;&#x662F;&#x56E0;&#x4E3A;&#x53D1;&#x73B0;kol&#x7684;&#x653E;&#x5927;&#x529F;&#x80FD;&#xFF0C;&#x6240;&#x4EE5;&#x540E;&#x9762;&#x52A0;&#x5165;&#x6392;&#x884C;&#x699C;&#xFF0C;&#x8BA9;&#x4ED6;&#x4EEC;&#x8FDB;&#x4E00;&#x6B65;&#x63D0;&#x9AD8;&#x79EF;&#x6781;&#x6027;&#x3002;&#xFF08;&#x56FE;4&#xFF09;</p>
-<p>3&#xFF09;&#x5173;&#x4E8E;&#x8F6C;&#x5316;&#x7684;&#x627F;&#x63A5;</p>
-<p>&#x5F88;&#x591A;&#x65F6;&#x5019;&#x88C2;&#x53D8;&#x672C;&#x8EAB;&#x589E;&#x957F;&#x5176;&#x5B9E;&#x96BE;&#x5EA6;&#x4E0D;&#x5927;&#xFF0C;&#x771F;&#x6B63;&#x6838;&#x5FC3;&#x7684;&#x5176;&#x5B9E;&#x662F;&#x8F6C;&#x5316;&#x6D41;&#x91CF;&#x7684;&#x8F6C;&#x63A5;&#x3002;</p>
-<p>&#x6BD4;&#x5982;&#x7528;&#x670D;&#x52A1;&#x53F7;&#x53BB;&#x505A;&#x589E;&#x957F;&#xFF0C;&#x5F88;&#x591A;&#x4EBA;&#x53EA;&#x7559;&#x4E0B;&#x4E86;&#x4E00;&#x5957;&#x5173;&#x6CE8;&#x56DE;&#x590D;&#x5C31;&#x6CA1;&#x4E86;&#x3002;&#x5176;&#x5B9E;&#x8FD8;&#x6709;&#x5927;&#x91CF;&#x7684;&#x673A;&#x4F1A;&#x8FD8;&#x6CA1;&#x7528;&#xFF0C;&#x4E00;&#x5957;&#x662F;&#x6A21;&#x677F;&#x6D88;&#x606F;&#xFF0C;&#x4E00;&#x5957;&#x662F;&#x5BA2;&#x670D;&#x6D88;&#x606F;&#x3002;</p>
-<p>&#x5F53;&#x65F6;&#x6A21;&#x677F;&#x6D88;&#x606F;&#x7684;&#x903B;&#x8F91;&#x662F;&#x628A;&#x65B0;&#x62C9;&#x5165;&#x7684;&#x5206;&#x7EC4;&#x6253;&#x6807;&#x7B7E;&#xFF0C;&#x7136;&#x540E;&#x6BCF;&#x6B21;&#x7528;&#x6A21;&#x677F;&#x6D88;&#x606F;&#x5524;&#x9192;&#xFF0C;&#x5728;&#x65E9;&#x671F;&#x6A21;&#x677F;&#x6D88;&#x606F;&#x7684;&#x5524;&#x9192;&#x7387;&#x8D85;20%&#xFF0C;&#x540E;&#x6765;&#x5927;&#x5BB6;&#x8D8A;&#x7528;&#x8D8A;&#x6CDB;&#x6EE5;&#xFF0C;&#x540E;&#x6765;&#x6A21;&#x677F;&#x6D88;&#x606F;&#x57FA;&#x672C;&#x4E0A;&#x53EA;&#x8981;&#x4E00;&#x53D1;&#x5C31;&#x88AB;&#x5FAE;&#x4FE1;&#x7981;&#x6B62;&#x4E86;&#x3002;</p>
-<p>&#x8FD8;&#x6709;&#x4E00;&#x5957;&#x662F;&#x5BA2;&#x670D;&#x6D88;&#x606F;&#xFF0C;48&#x5C0F;&#x65F6;&#x5185;&#x53EF;&#x4EE5;&#x53D1;&#x9001;&#x5F88;&#x591A;&#x6B21;&#xFF0C;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x903B;&#x8F91;&#x5224;&#x65AD;&#x6765;&#x8BBE;&#x5B9A;&#x3002;&#x6BD4;&#x5982;&#x5173;&#x6CE8;1&#x5206;&#x949F;&#x53D1;&#x6587;&#x7AE0;&#xFF0C;&#x5173;&#x6CE8;5&#x5C0F;&#x65F6;&#x53D1;&#x793E;&#x7FA4;&#xFF0C;&#x5173;&#x6CE8;10&#x5C0F;&#x65F6;&#x53D1;&#x4E2A;&#x4EBA;&#x53F7;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x53E0;&#x52A0;&#x4E00;&#x4E9B;&#x5224;&#x65AD;&#x903B;&#x8F91;&#x3002;</p>
-<p>&#x8FD9;&#x91CC;&#x9762;&#x76EE;&#x524D;&#x8FD8;&#x6709;&#x6700;&#x540E;&#x4E00;&#x6CE2;&#x5C0F;&#x7EA2;&#x5229;&#xFF0C;&#x6211;&#x4EEC;&#x51FA;&#x6765;&#x540E;&#x4E5F;&#x4E5F;&#x5F00;&#x53D1;&#x4E86;&#x4E00;&#x6B3E;&#x5B9A;&#x65F6;&#x53D1;&#x9001;&#x5BA2;&#x670D;&#x6D88;&#x606F;&#x7684;&#x5DE5;&#x5177;&#x201C;&#x65B0;&#x7C89;&#x5B9D;&#x201D;&#xFF0C;&#x5E2E;&#x52A9;&#x5927;&#x5BB6;&#x8BBE;&#x7F6E;&#x5267;&#x672C;&#x66F4;&#x591A;&#x6B21;&#x89E6;&#x8FBE;&#x7528;&#x6237;&#x3002;1&#x5143;&#x53EF;&#x4EE5;&#x8BD5;&#x7528;3&#x5929;&#xFF0C;&#x5982;&#x679C;&#x8D2D;&#x4E70;&#xFF0C;&#x5728;&#x4F18;&#x60E0;&#x7801;&#x8F93;&#x5165;&#x201C;&#x751F;&#x8D22;&#x6709;&#x672F;&#x201D;&#x53EF;&#x4EE5;&#x51CF;&#x514D;200&#x5143;&#x3002;&#xFF08;&#x56FE;5&#xFF09;</p>
-<h3 id="4&#x516C;&#x4F17;&#x53F7;&#x6295;&#x653E;">4.&#x516C;&#x4F17;&#x53F7;&#x6295;&#x653E;</h3>
-<p>&#x516C;&#x4F17;&#x53F7;&#x7684;&#x6295;&#x653E;&#x5305;&#x542B;&#x4E86;&#x9009;&#x53F7;&#xFF0C;&#x8FDB;&#x53F7;&#xFF0C;&#x6587;&#x6848;&#xFF0C;&#x6570;&#x636E;&#x7B49;&#x65B9;&#x9762;&#xFF0C;&#x5C55;&#x5F00;&#x6765;&#x8BB2;&#x7684;&#x5751;&#x592A;&#x591A;&#x4E86;&#xFF0C;&#x8FD9;&#x91CC;&#x5217;&#x4E3E;&#x51E0;&#x4E2A;&#x3002;</p>
-<p>1&#xFF09;&#x7B2C;&#x4E00;&#x4E2A;&#x662F;&#x7406;&#x89E3;&#x6295;&#x653E;&#xFF1A;</p>
-<p>&#x6295;&#x653E;&#x6700;&#x6838;&#x5FC3;&#x7684;&#x903B;&#x8F91;&#xFF0C;&#x6211;&#x89C9;&#x5F97;&#x662F;&#x7406;&#x89E3;&#x6E05;&#x695A;&#x6295;&#x653E;&#x672C;&#x8EAB;&#x3002;
-&#x89E3;&#x51B3;&#x6E05;&#x695A;&#x4E3A;&#x4EC0;&#x4E48;&#x6295;&#xFF0C;&#x5728;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x6295;&#xFF0C;&#x54EA;&#x91CC;&#x6295;&#xFF0C;&#x6295;&#x591A;&#x5C11;&#xFF0C;&#x600E;&#x4E48;&#x6295;&#x7684;&#x95EE;&#x9898;&#x3002;&#x8FD9;&#x91CC;&#x9762;&#x6BCF;&#x4E2A;&#x56E0;&#x7D20;&#x90FD;&#x6709;&#x53EF;&#x80FD;&#x4F1A;&#x5F71;&#x54CD;&#x5927;&#x76D8;</p>
-<p>&#x6211;&#x4EEC;&#x5C1D;&#x8BD5;&#x6295;&#x653E;&#x7684;&#x6BD4;&#x8F83;&#x665A;&#xFF0C;&#x4E5F;&#x9519;&#x8FC7;&#x4E86;&#x6700;&#x65E9;&#x516C;&#x4F17;&#x53F7;&#x7684;&#x4E00;&#x6CE2;&#x673A;&#x4F1A;&#x3002;&#x4F46;&#x5728;17&#x5E74;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6293;&#x4F4F;&#x4E86;&#x670D;&#x52A1;&#x53F7;&#x7684;&#x4E00;&#x6CE2;&#x7EA2;&#x5229;&#x3002;
-&#x670D;&#x52A1;&#x53F7;&#xFF0C;&#x5C24;&#x5176;&#x662F;&#x57FA;&#x4E8E;&#x573A;&#x666F;&#x7684;&#x670D;&#x52A1;&#x53F7;&#xFF0C;&#x4ED6;&#x4EEC;&#x6709;&#x7A33;&#x5B9A;&#x7684;&#x5BA2;&#x6D41;&#x91CF;&#x3002;&#x6BD4;&#x5982;&#x6211;&#x4EEC;&#x5E38;&#x89C1;&#x7684;&#x4E30;&#x5DE2;&#x5FEB;&#x9012;&#x67DC;&#xFF0C;&#x7F8E;&#x5B9C;&#x4F73;&#x8D85;&#x5E02;&#x8FD9;&#x79CD;&#x3002;&#x5F53;&#x7136;&#x8FD9;&#x5757;&#x7684;&#x798F;&#x5229;&#x5728;k12&#x5DF2;&#x7ECF;&#x6D88;&#x5931;&#x4E86;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x4E8E;&#x5176;&#x4ED6;&#x884C;&#x4E1A;&#x8FD8;&#x6709;&#x5927;&#x7EA2;&#x5229;&#x3002;</p>
-<p>&#x6211;&#x4EEC;&#x6700;&#x8FD1;&#x4E5F;&#x5728;&#x5E2E;&#x4E00;&#x4E9B;&#x670D;&#x52A1;&#x53F7;&#x5927;&#x53F7;&#x7B49;&#x670B;&#x53CB;&#x4EEC;&#xFF0C;&#x505A;&#x66F4;&#x9AD8;&#x6548;&#x7684;&#x53D8;&#x73B0;&#x3002;</p>
-<p>&#x5F53;&#x65F6;&#x6211;&#x4EEC;&#x5728;&#x6295;&#x653E;&#x7684;&#x65F6;&#x5019;&#x53D1;&#x73B0;&#xFF0C;&#x4E00;&#x4E2A;&#x597D;&#x7684;&#x516C;&#x4F17;&#x53F7;&#x6295;&#x624B;&#xFF0C;&#x5F88;&#x91CD;&#x8981;&#x7684;&#x4E00;&#x70B9;&#x662F;&#x51CF;&#x5C11;&#x6295;&#x5931;&#x7387;&#xFF08;roi&#x4F4E;&#x4E8E;&#x67D0;&#x4E2A;&#x6781;&#x9650;&#x503C;&#xFF09;&#x3002;</p>
-<p>2&#xFF09;&#x51CF;&#x5C11;&#x6295;&#x5931;&#x7387;</p>
-<p>&#x51CF;&#x5C11;&#x6295;&#x5931;&#x7387;&#xFF0C;&#x9996;&#x5148;&#x9700;&#x8981;&#x7CFB;&#x7EDF;&#x5C42;&#x9762;&#x7684;&#x6BCF;&#x4E2A;&#x6570;&#x636E;&#x53CA;&#x65F6;&#x5316;&#xFF0C;&#x53EF;&#x89C6;&#x5316;&#x3002;
-&#x8FD9;&#x53E5;&#x8BDD;&#x8BF4;&#x8D77;&#x6765;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x4F46;&#x662F;&#x9700;&#x8981;&#x914D;&#x5408;&#x7684;&#x5F88;&#x591A;&#xFF0C;&#x516C;&#x53F8;&#x7684;BI&#xFF0C;&#x5305;&#x62EC;crm&#x7CFB;&#x7EDF;&#x5224;&#x65AD;&#x7684;&#x903B;&#x8F91;&#x7B49;&#x914D;&#x5408;&#x3002;&#x6BD4;&#x5982;CC&#x6BCF;&#x5929;10&#x665A;&#x4E0A;10&#x70B9;&#x4E0B;&#x73ED;&#xFF0C;&#x7406;&#x8BBA;&#x4E0A;10&#x70B9;&#x540E;&#x662F;&#x4E0D;&#x80FD;&#x8FDB;&#x7EBF;&#x7D22;&#x4E86;&#xFF0C;&#x7275;&#x626F;&#x5230;&#x7EBF;&#x7D22;&#x7684;&#x5206;&#x914D;&#x95EE;&#x9898;&#x3002;</p>
-<p>&#x5F53;&#x7136;&#x8FD9;&#x9700;&#x8981;&#x624B;&#x611F;&#xFF0C;&#x4F46;&#x5F88;&#x591A;&#x65F6;&#x5019;&#x9760;&#x590D;&#x6295;&#x3002;&#x600E;&#x4E48;&#x5224;&#x65AD;&#x4E00;&#x4E2A;&#x53F7;&#x53EF;&#x4EE5;&#x590D;&#x6295;&#xFF0C;&#x6211;&#x4EEC;&#x5403;&#x8FC7;&#x5F88;&#x591A;&#x4E8F;&#x3002;&#x5728;&#x516C;&#x4F17;&#x53F7;&#x4F53;&#x7CFB;&#x91CC;&#x5176;&#x4E2D;&#x6709;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x5173;&#x952E;&#x7684;&#x9690;&#x85CF;&#x56E0;&#x7D20;&#x662F;&#x516C;&#x4F17;&#x53F7;&#x672C;&#x8EAB;&#x7684;&#x589E;&#x957F;&#x3002;&#x516C;&#x4F17;&#x53F7;&#x672C;&#x8EAB;&#x4E0D;&#x589E;&#x957F;&#xFF0C;&#x540E;&#x7EED;&#x6295;&#x653E;&#x6548;&#x679C;&#x5C31;&#x4F1A;&#x5F88;&#x5DEE;&#xFF0C;&#x6240;&#x4EE5;&#x6709;&#x65F6;&#x5019;&#x7B7E;&#x6846;&#x67B6;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x9700;&#x8981;&#x770B;&#x4E0B;&#x540E;&#x53F0;&#x7684;&#x589E;&#x957F;&#x6570;&#x636E;&#x3002;&#xFF08;&#x56FE;6&#xFF09;</p>
-<p>&#x6211;&#x4EEC;&#x6295;&#x653E;&#x5230;&#x6700;&#x540E;&#x53D1;&#x73B0;&#xFF0C;&#x6700;&#x7EC8;&#x7684;&#x7ADE;&#x4E89;&#x5BF9;&#x624B;&#x53EF;&#x80FD;&#x4E0D;&#x662F;&#x540C;&#x884C;&#xFF0C;&#x5F88;&#x591A;&#x597D;&#x7684;&#x53F7;&#x9700;&#x8981;&#x62A2;&#x6392;&#x671F;&#xFF0C;&#x8DDF;&#x6211;&#x4EEC;&#x62A2;&#x6392;&#x671F;&#x7684;&#x53EF;&#x80FD;&#x662F;&#x53BB;&#x5E74;&#x7684;&#x8702;&#x871C;&#xFF0C;&#x957F;&#x9AD8;&#x8FD9;&#x7C7B;&#xFF0C;&#x6240;&#x4EE5;&#x4E5F;&#x4F1A;&#x7814;&#x7A76;&#x4ED6;&#x4EEC;&#x7684;&#x6295;&#x653E;&#x7B56;&#x7565;&#x3002;</p>
-<p>Ps&#x4ECA;&#x5E74;&#x516C;&#x4F17;&#x53F7;&#x5927;&#x76D8;&#x6295;&#x653E;&#x4E0B;&#x964D;&#xFF0C;&#x66F4;&#x591A;&#x7684;&#x662F;cpa&#xFF0C;cps&#x6295;&#x653E;&#x5F00;&#x59CB;&#x51FA;&#x73B0;&#xFF0C;&#x67D0;&#x4E9B;&#x884C;&#x4E1A;&#x53EF;&#x4EE5;&#x6284;&#x5E95;&#x4E00;&#x6CE2;&#xFF0C;&#x800C;&#x4E14;&#x5F88;&#x5927;&#x7EA2;&#x5229;&#x3002;</p>
-<p>3&#xFF09;&#x6295;&#x653E;&#x7EC6;&#x8282;</p>
-<p>&#x6295;&#x653E;&#x9700;&#x8981;&#x5F88;&#x591A;&#x7EC6;&#x8282;&#xFF0C;&#x7EC6;&#x8282;&#x90FD;&#x85CF;&#x5728;&#x6BCF;&#x4E2A;&#x6F0F;&#x6597;&#x91CC;&#x3002;
-&#x6BD4;&#x5982;&#x62FF;&#x843D;&#x5730;&#x9875;&#x6765;&#x8BF4;&#xFF0C;&#x5F53;&#x7528;&#x6237;&#x62A5;&#x5B8C;&#x540D;&#x540E;&#xFF0C;&#x53EF;&#x4EE5;&#x5F15;&#x5BFC;&#x5173;&#x6CE8;&#x516C;&#x4F17;&#x53F7;&#x6216;&#x8005;&#x52A0;&#x4E2A;&#x4EBA;&#x53F7;&#xFF0C;&#x8FDB;&#x4E00;&#x6B65;&#x5229;&#x7528;&#x6D41;&#x91CF;&#x3002;
-&#x5305;&#x62EC;&#x5173;&#x6CE8;&#x670D;&#x52A1;&#x53F7;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x533A;&#x5206;&#x3002;&#x5229;&#x7528;&#x6E20;&#x9053;&#x4E8C;&#x7EF4;&#x7801;&#xFF0C;&#x6BD4;&#x5982;&#x6295;&#x653E;&#x6765;&#x7684;&#x7528;&#x6237;&#x662F;&#x76F4;&#x63A5;&#x9886;&#x8D44;&#x6599;&#x7684;&#xFF0C;&#x800C;&#x901A;&#x8FC7;&#x6D3B;&#x52A8;&#x6765;&#x7684;&#x5C31;&#x662F;&#x6B63;&#x5E38;&#x7684;&#x3002;</p>
-<h2 id="&#x63D0;&#x793A;">&#x63D0;&#x793A;</h2>
-<p>&#x672C;&#x6587;&#x6765;&#x81EA;&#x4E8E;&#x77E5;&#x8BC6;&#x661F;&#x7403;&#x3010;<a href="https://www.lijiaocn.com/img/xiaomiquan-scys.png" target="_blank">&#x751F;&#x8D22;&#x6709;&#x672F;</a>&#x3011;&#x539F;&#x6587;&#x7ECF;&#x8FC7;&#x672C;&#x7AD9;&#x7CBE;&#x6821;&#x3001;&#x5206;&#x6BB5;&#x548C;&#x9AD8;&#x4EAE;&#x5904;&#x7406;&#xFF0C;<a href="../">&#x6765;&#x6E90;&#x4ECB;&#x7ECD;</a></p>
-<p><img src="https://www.lijiaocn.com/img/xiaomiquan-scys.png" alt="&#x77E5;&#x8BC6;&#x661F;&#x7403;&#x751F;&#x8D22;&#x6709;&#x672F;"></p>
-<script type="text/javascript">var className='atoc';</script>
-                                
-
-<div>
-<!-- 匹配内容 -->
-<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-format="autorelaxed"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="6443696990"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div>
-
-<!-- Page_Bottom -->
-<!--div>
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8176866190626448"
-     data-ad-slot="7945072540"
-     data-ad-format="auto"
-     data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-</div-->
-
-<div style="display:flex;flex-direction:row;justify-content:center">
-<br>
-<a href="https://study.163.com/provider/400000000376006/course.htm?share=2&shareId=400000000376006"><img height="250px" alt="微信公众号:我的网课" src="https://www.lijiaocn.com/img/class.jpg"/></a>
-<a href="https://weibo.com/zuiniur/profile"><img height="250px" alt="微信公众号:我的资产" src="https://www.lijiaocn.com/money/img/self.jpg"/></a>
-</div>
-
-
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
-                        </div>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <div style="width:100%;text-align:center">
+                  <h2 style="color:#afa790">小鸟笔记-运营经验</h2>
+                  <p style="font-weight:bold"><a style="color:lightgray;" href="https://www.lijiaocn.com">www.lijiaocn.com</a></p>
+                </div>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="../index.html"><strong aria-hidden="true">1.</strong> 小鸟笔记—运营篇</a></li><li class="chapter-item expanded "><a href="../renshi/index.html"><strong aria-hidden="true">2.</strong> 真知灼见</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../renshi/1.html"><strong aria-hidden="true">2.1.</strong> 赚到钱最重要的因素是资源整合</a></li><li class="chapter-item expanded "><a href="../renshi/2.html"><strong aria-hidden="true">2.2.</strong> 产品要有能被喊的属性</a></li><li class="chapter-item expanded "><a href="../renshi/3.html"><strong aria-hidden="true">2.3.</strong> 真正轻松赚大钱的信息，没人会出来讲</a></li></ol></li><li class="chapter-item expanded "><a href="../shop/index.html"><strong aria-hidden="true">3.</strong> 流量电商</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../shop/amazon-new-product.html"><strong aria-hidden="true">3.1.</strong> 亚马逊新品推爆-Lissa Tam</a></li><li class="chapter-item expanded "><a href="../shop/amazon-group.html"><strong aria-hidden="true">3.2.</strong> 亚马逊店群-路飞</a></li><li class="chapter-item expanded "><a href="../shop/taobao-group.html"><strong aria-hidden="true">3.3.</strong> 淘宝店群打法-佳境</a></li><li class="chapter-item expanded "><a href="../shop/taobao-car.html"><strong aria-hidden="true">3.4.</strong> 淘宝直通车爆款-七里香</a></li><li class="chapter-item expanded "><a href="../shop/taobao-car-ppc.html"><strong aria-hidden="true">3.5.</strong> 淘宝直通车降低PPC-七里香</a></li><li class="chapter-item expanded "><a href="../shop/res.html"><strong aria-hidden="true">3.6.</strong> 流量资源整合-百川</a></li><li class="chapter-item expanded "><a href="../shop/ad-bu-liang.html"><strong aria-hidden="true">3.7.</strong> 广告补量业务与闲鱼信息差-百川</a></li><li class="chapter-item expanded "><a href="../shop/douyin.html"><strong aria-hidden="true">3.8.</strong> 抖音带货、知识变现-周可</a></li><li class="chapter-item expanded "><a href="../shop/cod.html"><strong aria-hidden="true">3.9.</strong> Affiliate Marketing 经历和抖音躺过的坑-赖才坤</a></li></ol></li><li class="chapter-item expanded "><a href="../social/index.html"><strong aria-hidden="true">4.</strong> 社群运营</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../social/weixin.html"><strong aria-hidden="true">4.1.</strong> 微信细致运营100条-杨涛</a></li><li class="chapter-item expanded "><a href="../social/zhihu.html"><strong aria-hidden="true">4.2.</strong> 知乎细致运营150条-潇潇</a></li><li class="chapter-item expanded "><a href="../social/media.html" class="active"><strong aria-hidden="true">4.3.</strong> 新媒体增长上的一些坑和经验-火火</a></li></ol></li><li class="chapter-item expanded "><a href="../info/index.html"><strong aria-hidden="true">5.</strong> 信息差变现</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../info/soft.html"><strong aria-hidden="true">5.1.</strong> 免费软件销售</a></li></ol></li><li class="chapter-item expanded "><a href="../prod/index.html"><strong aria-hidden="true">6.</strong> 创意产品/服务</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../prod/lock.html"><strong aria-hidden="true">6.1.</strong> 遥控智能锁</a></li></ol></li><li class="chapter-item expanded "><a href="../expr/index.html"><strong aria-hidden="true">7.</strong> 行业经验</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../expr/saler.html"><strong aria-hidden="true">7.1.</strong> 销售的思维-夏俊一</a></li></ol></li><li class="chapter-item expanded "><a href="../douyin/index.html"><strong aria-hidden="true">8.</strong> 抖音运营</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/bianxian.html"><strong aria-hidden="true">8.1.</strong> 变现思路</a></li><li class="chapter-item expanded "><a href="../douyin/yanghao.html"><strong aria-hidden="true">8.2.</strong> 养号买号</a></li><li class="chapter-item expanded "><a href="../douyin/gongju.html"><strong aria-hidden="true">8.3.</strong> 视频工具</a></li><li class="chapter-item expanded "><a href="../douyin/fabu.html"><strong aria-hidden="true">8.4.</strong> 发布技巧</a></li><li class="chapter-item expanded "><a href="../douyin/yinliu.html"><strong aria-hidden="true">8.5.</strong> 抖音引流</a></li><li class="chapter-item expanded "><a href="../douyin/zhizuo.html"><strong aria-hidden="true">8.6.</strong> 视频制作</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/banyun.html"><strong aria-hidden="true">8.6.1.</strong> 搬运法</a></li><li class="chapter-item expanded "><a href="../douyin/tuwen.html"><strong aria-hidden="true">8.6.2.</strong> 图文法</a></li><li class="chapter-item expanded "><a href="../douyin/luping.html"><strong aria-hidden="true">8.6.3.</strong> 录屏法</a></li></ol></li><li class="chapter-item expanded "><a href="../douyin/xuanti.html"><strong aria-hidden="true">8.7.</strong> 主题选取</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="../douyin/cremen.html"><strong aria-hidden="true">8.7.1.</strong> 热门主题</a></li><li class="chapter-item expanded "><a href="../douyin/fanpai.html"><strong aria-hidden="true">8.7.2.</strong> 翻拍热门</a></li><li class="chapter-item expanded "><a href="../douyin/ctuwen.html"><strong aria-hidden="true">8.7.3.</strong> 图文主题</a></li><li class="chapter-item expanded "><a href="../douyin/cpk.html"><strong aria-hidden="true">8.7.4.</strong> PK主题</a></li><li class="chapter-item expanded "><a href="../douyin/kaixiang.html"><strong aria-hidden="true">8.7.5.</strong> 开箱展示</a></li><li class="chapter-item expanded "><a href="../douyin/ip.html"><strong aria-hidden="true">8.7.6.</strong> 个人IP</a></li><li class="chapter-item expanded "><a href="../douyin/xiangfa.html"><strong aria-hidden="true">8.7.7.</strong> 随便想想</a></li></ol></li></ol></li><li class="chapter-item expanded "><a href="../tools/index.html"><strong aria-hidden="true">9.</strong> 工具变现</a></li></ol>
+               <div style="width:100%;text-align:center">
+                  <img style="width:100%" src="https://www.lijiaocn.com/img/ercode/cur.jpg"/>
+               </div>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
                     </div>
-                
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div style="text-align:center;width:100%">
+                    <!--h1>顶部条幅广告</h1-->
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8176866190626448"
+                     crossorigin="anonymous"></script>
+                     <!-- 顶部条幅广告 -->
+                    <ins class="adsbygoogle"
+                     style="display:block"
+                     data-ad-client="ca-pub-8176866190626448"
+                     data-ad-slot="1000173679"
+                     data-ad-format="auto"
+                     data-full-width-responsive="true"></ins>
+                     <script>
+                     (adsbygoogle = window.adsbygoogle || []).push({});
+                     </script>
+                </div>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="关于新媒体增长上的一些坑和经验"><a class="header" href="#关于新媒体增长上的一些坑和经验">关于新媒体增长上的一些坑和经验</a></h1>
+<p><strong>潇潇</strong> 在知识星球【<a href="../README.html">生财有术</a>】 中做的分享，本站进行了精校和高亮处理。</p>
+<h2 id="开篇语"><a class="header" href="#开篇语">开篇语</a></h2>
+<p>关于新媒体增长，星球里面有很多大佬，也分享了很多经验，但是对于刚进入新媒体增长的圈友，估计还是要掉不少坑，今天我就邀请了一位实战经验丰富的圈友，来给大家聊聊新媒体增长的坑和经验。</p>
+<p>请大家欢迎龙共火火@龙共火火-《高阶运营*  ！</p>
+<h2 id="正文"><a class="header" href="#正文">正文</a></h2>
+<p>大家好，我是火火。感谢亦仁大佬的邀请，这里好多大神，学到了很多。我今天分享的主题是《关于新媒体增长上的一些坑和经验》。</p>
+<p>我是火火，14年开始入行，一直从事新媒体运营方向，职业经历主要是两家公司。</p>
+<p>一家是美丽说，一开始做公关的方向，中间也业余做了一时间段自媒体。机缘巧合下运营了公司4000万左右的新媒体矩阵，参与了当时美丽说冠名跑男第三季的营销项目。后来在美丽说被蘑菇街合并后离开，阴差阳错的进了教育行业。入职一家叫学霸君，之前做拍照搜题，后来转型做在线1对1项目，从0开始做新媒体来获取家长，做了千万的矩阵，以及后来做了公众号投放这块，累计营收上亿。</p>
+<p>平常一直比较喜欢玩新媒体，去年出了一本书《高阶运营》。今年3月份自己出来了，目前是一个创业菜鸟，正在摸索关于流量的新玩法以及在做相关产品，跟大佬们多学习。</p>
+<p>好的说回正题，零碎的聊一下这几年自己做新媒体增长踩过的几个坑和经验：</p>
+<h3 id="1对增长的认知"><a class="header" href="#1对增长的认知">1、对增长的认知</a></h3>
+<p>在电商公司时我们在公关部，更多的关注传播导向的数据。比如做一个事件或者品牌传播，结案报告上主要写影响到多少人，以及有哪些kol报道。进站uv反而是一个次的考核指标。</p>
+<p>16年到了教育公司做家长类业务时，对我有一个巨大的冲击，我们需要产出销售线索，让cc成单，直接怼业绩和成单负责，这时候才开始疯狂的恶补数据，产品的信息。</p>
+<p>这几年发现，增长一定是给企业创造营收，任何都需要去衡量ROI，无论是短期还是长期。</p>
+<p>1）对新媒体的理解</p>
+<p>新媒体发展了几年，其实已经超出了我们很多的认知，包括最早我们14年入行时都叫小编，后来新媒体变成了投放的渠道，再到18年时更多人把新媒体作为平台，可以承载公司的整体业务。（图1）</p>
+<p>在这里面需要说明的是，传统行业其实还没进化的那么快，更多向1.0-2.0进化，中间存在巨大的认知鸿沟，也就是信息差的机会。不过现在很多店正在反应过来，比如同样做一个社群裂变在线上做不起来，但是线下的教培机构去可以玩的风生水起。</p>
+<p>2）对平台的理解</p>
+<p>增长基于什么平台也是决定性的，比如你前两年把精力花在小咖秀肯定就废了，花在抖音上就可能起来。这取决于对平台本身的理解，需要商业的判断，也需要运气。之前我也在书中提出过积木逻辑的设想。</p>
+<p>举个反例，我们之前16年底的时候看到个人号的机会，2个人很快2个月做了10万的个人号粉丝，后来号太多了维护不过来，我们就采用了群控。17年3月正好引来一波打击，当时被玩的万念俱灰，就没有继续做个人号非常遗憾。核心是背后我们的认知问题，当时对个人号的判读出现了失误。</p>
+<p>当然平台的选择也不是一定的，要匹配自身的业务诉求。就像去年很多做短视频的朋友，面临做哪个平台的选择，有的选了微视，有的选了抖音，有的选了快手。今年结局截然不同，、很多抖音的惨淡退场，没有等到开购物车的红利的开启。有些号做快手粉丝很少，今年靠直播就很赚钱。</p>
+<h3 id="2增长新方式的寻找"><a class="header" href="#2增长新方式的寻找">2.增长新方式的寻找</a></h3>
+<p>什么时候去寻找增长方法，答案是无时不刻，但每个时期重点也不一样，这里特别说的是，寻找增长方法除了冷启动外，最好是在自己业务属于上升或者稳固期，复合增长率平稳时候开始。千万不要等到增长下滑再去找，因为那会很容易心迷意乱，病急乱投医。
+那增长方法从哪里找，除了常规的信息渠道，还有几个重点：</p>
+<p>1)学会迁移</p>
+<p>很多增长方法其实都会迁移，这里面有个“时间机器“的概念，很多灰产包括黑产的玩法，其实可以拿过来在以改造在自己的行业应用。菜刀能伤人，也能做菜。</p>
+<p>比如诱导防封换链的技术等都是灰产来的，举个例子我们在17年寻找方法的时候，试了社群裂变，h5裂变，任务宝等方法，但是都没玩通。</p>
+<p>后来偶然间，我们在17年的9月发现有一些灰产在用任务宝，送瑜伽垫涨粉但是不发货。当时我们教育行业大多数送的都是免费电子资料，但效果很差。于是我们试了下纸质版的资料，10月份我们送了内部的资料，当时还在过十一，单个账号一天增长了6万。</p>
+<p>后来把这个告诉了一个朋友，他18年涨粉几百万，赚了七位数。</p>
+<p>2)掌握到一手信息</p>
+<p>一手信息特别重要，想要获取信息，最好的是让自己成为信息源，亦仁老板的群里有很多非常有价值的一手信息。</p>
+<p>当然一般来说特别有价值的信息，很少会在公开场合说，更常见的是线下或者是极小的圈子大家相互说。那我们为什么还要参加大圈子的讨论，核心其实是找到你“情投意合“的人，私底下再去交流，比如上次亦任的杭州见面会，我们私底下认识了几个非常好的流量圈朋友。</p>
+<p>3)筛掉无效信息</p>
+<p>更多时候，我们其实掌握了很多方法，但不可能全部都做，怎么去辨别和利用呢，可以做一个渠道规划表，从获客成本，粉丝质量，增长可控程度，团队投入，渠道放量，产出验证时间等，可以进行打分。以后备着这个表，比如有时候需要扩大量，可以选择广点通。（图2）</p>
+<p>对于企业来说，一般增长手段会服从721的原则，即7成是现有的方法，2成是新的方法，1成是有潜力去试的方法，之后相互的切换金银水管。</p>
+<h3 id="3增长的执行"><a class="header" href="#3增长的执行">3.增长的执行</a></h3>
+<p>增长其实很多方法大家都知道，但是同样做一件事，做出的效果截然不同。
+拿裂变来说，k（裂变系数：每个参与的人能够拉新的人数）差0.1，效果差好几倍。这里面有大量的细节和认知，拿任务宝的几个细节来说：</p>
+<p>1）关于快递查询</p>
+<p>因为任务宝的核心消耗用户的朋友圈，既让越来越多的人参与进来。所以在用户完成任务后，如果送实体物品，务必让快递快点发出去。刚开始我们设定了活动的期限，比如一个礼拜跑一次，再去去发货。</p>
+<p>但是会发现两个点，第一这批没有收到货的用户基本上不会再去参加活动。第二是快递更新不及时，用户不知道快递到哪里，容易引发举报。所以我们调整了下，</p>
+<p>主要分为两步：对内保证1-2天发货一次的节奏。对外做了一套用户的查询系统，让用户输手机号查询，并且可以同步快递信息。这里面做了一个小创新，因为早期大家很多用石墨文档列出所有的用户，对于用户来说很麻烦，还得手动找快递单查状态，第二个这也部分侵犯了他们的隐私。（图3）</p>
+<p>2）关于多次利用kol</p>
+<p>在跑活动的时候拉数据发现，有些人能够拉很多人，我们让技术跑出来后，做了两个动作。一个是单独联系他们，拉入kol群，因为他们的影响力大，后续有些小范围活动的引爆可以靠他们。第二个是因为发现kol的放大功能，所以后面加入排行榜，让他们进一步提高积极性。（图4）</p>
+<p>3）关于转化的承接</p>
+<p>很多时候裂变本身增长其实难度不大，真正核心的其实是转化流量的转接。</p>
+<p>比如用服务号去做增长，很多人只留下了一套关注回复就没了。其实还有大量的机会还没用，一套是模板消息，一套是客服消息。</p>
+<p>当时模板消息的逻辑是把新拉入的分组打标签，然后每次用模板消息唤醒，在早期模板消息的唤醒率超20%，后来大家越用越泛滥，后来模板消息基本上只要一发就被微信禁止了。</p>
+<p>还有一套是客服消息，48小时内可以发送很多次，可以根据自己的逻辑判断来设定。比如关注1分钟发文章，关注5小时发社群，关注10小时发个人号，还可以叠加一些判断逻辑。</p>
+<p>这里面目前还有最后一波小红利，我们出来后也也开发了一款定时发送客服消息的工具“新粉宝”，帮助大家设置剧本更多次触达用户。1元可以试用3天，如果购买，在优惠码输入“生财有术”可以减免200元。（图5）</p>
+<h3 id="4公众号投放"><a class="header" href="#4公众号投放">4.公众号投放</a></h3>
+<p>公众号的投放包含了选号，进号，文案，数据等方面，展开来讲的坑太多了，这里列举几个。</p>
+<p>1）第一个是理解投放：</p>
+<p>投放最核心的逻辑，我觉得是理解清楚投放本身。
+解决清楚为什么投，在什么时候投，哪里投，投多少，怎么投的问题。这里面每个因素都有可能会影响大盘</p>
+<p>我们尝试投放的比较晚，也错过了最早公众号的一波机会。但在17年的时候，抓住了服务号的一波红利。
+服务号，尤其是基于场景的服务号，他们有稳定的客流量。比如我们常见的丰巢快递柜，美宜佳超市这种。当然这块的福利在k12已经消失了，但是对于其他行业还有大红利。</p>
+<p>我们最近也在帮一些服务号大号等朋友们，做更高效的变现。</p>
+<p>当时我们在投放的时候发现，一个好的公众号投手，很重要的一点是减少投失率（roi低于某个极限值）。</p>
+<p>2）减少投失率</p>
+<p>减少投失率，首先需要系统层面的每个数据及时化，可视化。
+这句话说起来很简单，但是需要配合的很多，公司的BI，包括crm系统判断的逻辑等配合。比如CC每天10晚上10点下班，理论上10点后是不能进线索了，牵扯到线索的分配问题。</p>
+<p>当然这需要手感，但很多时候靠复投。怎么判断一个号可以复投，我们吃过很多亏。在公众号体系里其中有一个非常关键的隐藏因素是公众号本身的增长。公众号本身不增长，后续投放效果就会很差，所以有时候签框架的时候，需要看下后台的增长数据。（图6）</p>
+<p>我们投放到最后发现，最终的竞争对手可能不是同行，很多好的号需要抢排期，跟我们抢排期的可能是去年的蜂蜜，长高这类，所以也会研究他们的投放策略。</p>
+<p>Ps今年公众号大盘投放下降，更多的是cpa，cps投放开始出现，某些行业可以抄底一波，而且很大红利。</p>
+<p>3）投放细节</p>
+<p>投放需要很多细节，细节都藏在每个漏斗里。
+比如拿落地页来说，当用户报完名后，可以引导关注公众号或者加个人号，进一步利用流量。
+包括关注服务号的时候，也可以区分。利用渠道二维码，比如投放来的用户是直接领资料的，而通过活动来的就是正常的。</p>
+<h2 id="提示"><a class="header" href="#提示">提示</a></h2>
+<p>本文来自于知识星球【<a href="https://www.lijiaocn.com/img/xiaomiquan-scys.png">生财有术</a>】原文经过本站精校、分段和高亮处理，<a href="../README.html">来源介绍</a></p>
+<p><img src="https://www.lijiaocn.com/img/xiaomiquan-scys.png" alt="知识星球生财有术" /></p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../social/zhihu.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="../info/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+                <div style="text-align:center;width:100%">
+                    <!--h1>底部相关广告</h1-->
+                    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8176866190626448"
+                         crossorigin="anonymous"></script>
+                    <ins class="adsbygoogle"
+                         style="display:block"
+                         data-ad-format="autorelaxed"
+                         data-ad-client="ca-pub-8176866190626448"
+                         data-ad-slot="6443696990"></ins>
+                    <script>
+                         (adsbygoogle = window.adsbygoogle || []).push({});
+                    </script>
+                </div>
             </div>
 
-            
-                
-                <a href="zhihu.html" class="navigation navigation-prev " aria-label="Previous page: 知乎细致运营150条-潇潇">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="../info/" class="navigation navigation-next " aria-label="Next page: 信息差变现">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
-        
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../social/zhihu.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="../info/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
     </div>
-
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"新媒体增长上的一些坑和经验-火火","level":"1.4.3","depth":2,"next":{"title":"信息差变现","level":"1.5","depth":1,"path":"info/index.md","ref":"./info/index.md","articles":[{"title":"免费软件销售","level":"1.5.1","depth":2,"path":"info/soft.md","ref":"./info/soft.md","articles":[]}]},"previous":{"title":"知乎细致运营150条-潇潇","level":"1.4.2","depth":2,"path":"social/zhihu.md","ref":"./social/zhihu.md","articles":[]},"dir":"ltr"},"config":{"plugins":[{"name":"theme-lijiaocn","version":"git+https://github.com/lijiaocn/theme-lijiaocn.git"},"atoc","toggle-chapters","rss"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"atoc":{"addClass":true,"className":"atoc"},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":[],"title":"运营知识手册（运营实践笔记）","description":"菜鸟的运营知识学习手册，抖音运营知识汇总，短视频制作技巧，运营实践","author":"李佶澳","site_url":"https://www.lijiaocn.com/oper/","feed_url":"https://www.lijiaocn.com/oper/feed.xml"},"highlight":{},"theme-lijiaocn":{"showLevel":false,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"toggle-chapters":{}},"theme":"default","author":"lijiaocn@foxmail.com","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"isbn":"","variables":{},"language":"zh-hans","gitbook":">=3.0.0"},"file":{"path":"social/media.md","mtime":"2022-05-13T07:29:51.376Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-05-13T09:41:25.402Z"},"basePath":"..","book":{"language":""}});
-        });
-    </script>
-</div>
-
-        
-    <script src="../gitbook/gitbook.js"></script>
-    <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-atoc/atoc.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-toggle-chapters/toggle.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-rss/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-
     </body>
 </html>
-
